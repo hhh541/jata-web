@@ -27,48 +27,35 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 0;
       background-image:
         radial-gradient(ellipse at 10% 20%, rgba(201,146,42,0.12) 0%, transparent 50%),
         radial-gradient(ellipse at 90% 80%, rgba(92,61,30,0.10) 0%, transparent 50%);
     }
 
-    /* ─── HEADER ─────────────────────────────────────── */
-    .header {
-      text-align: center;
-      margin-bottom: 24px;
-    }
-    .header .batik-line {
-      width: 120px;
-      height: 4px;
-      margin: 0 auto 14px;
-      background: linear-gradient(90deg, var(--emas), var(--coklat), var(--emas));
-      border-radius: 2px;
-    }
-    .header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.6rem;
-      color: var(--coklat);
-      letter-spacing: 2px;
-    }
-    .header h1 span { color: var(--emas); }
-    .header p {
-      color: var(--abu);
-      font-size: 0.92rem;
-      margin-top: 6px;
-      letter-spacing: 0.5px;
+    /* Di laptop tampil sebagai kartu */
+    @media (min-width: 600px) {
+      body { padding: 20px; }
+      .card {
+        height: 90vh !important;
+        max-height: 700px !important;
+        border-radius: 20px !important;
+        border: 1.5px solid var(--krem2) !important;
+        box-shadow:
+          0 4px 6px rgba(92,61,30,0.06),
+          0 20px 60px rgba(92,61,30,0.12) !important;
+      }
     }
 
     /* ─── CARD ───────────────────────────────────────── */
     .card {
       width: 100%;
       max-width: 680px;
+      height: 100vh;
       background: var(--putih);
-      border-radius: 20px;
-      box-shadow:
-        0 4px 6px rgba(92,61,30,0.06),
-        0 20px 60px rgba(92,61,30,0.12);
-      border: 1.5px solid var(--krem2);
+      border-radius: 0;
+      box-shadow: none;
+      border: none;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -81,6 +68,7 @@
       display: flex;
       align-items: center;
       gap: 14px;
+      flex-shrink: 0;
     }
     .avatar {
       width: 44px; height: 44px;
@@ -116,10 +104,9 @@
     /* ─── MESSAGES ───────────────────────────────────── */
     .messages {
       flex: 1;
-      padding: 24px 20px;
+      padding: 20px 16px;
       overflow-y: auto;
-      min-height: 380px;
-      max-height: 400px;
+      min-height: 0;
       display: flex;
       flex-direction: column;
       gap: 14px;
@@ -153,11 +140,12 @@
     .bubble-wrap.user .bubble-avatar { background: linear-gradient(135deg, var(--coklat), #7a5230); color: #fff; }
 
     .bubble {
-      max-width: 72%;
+      max-width: 75%;
       padding: 11px 16px;
       border-radius: 18px;
       font-size: 0.9rem;
       line-height: 1.55;
+      word-wrap: break-word;
     }
     .bubble-wrap.bot .bubble {
       background: var(--putih);
@@ -173,9 +161,7 @@
     }
 
     /* typing indicator */
-    .typing .bubble {
-      padding: 14px 18px;
-    }
+    .typing .bubble { padding: 14px 18px; }
     .dot-flashing {
       display: flex; gap: 5px; align-items: center;
     }
@@ -192,17 +178,41 @@
       40%         { transform: scale(1);   opacity:1; }
     }
 
+    /* ─── SUGGESTION CHIPS ───────────────────────────── */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 10px 16px 12px;
+      background: var(--putih);
+      flex-shrink: 0;
+    }
+    .chip {
+      padding: 6px 13px;
+      border-radius: 50px;
+      border: 1.5px solid var(--krem2);
+      background: var(--krem);
+      color: var(--coklat);
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .chip:hover { background: var(--emas); color: var(--putih); border-color: var(--emas); }
+
     /* ─── INPUT AREA ─────────────────────────────────── */
     .input-area {
-      padding: 16px 20px;
+      padding: 12px 16px;
       background: var(--putih);
       border-top: 1.5px solid var(--krem2);
       display: flex;
       gap: 10px;
       align-items: center;
+      flex-shrink: 0;
     }
     .input-area input {
       flex: 1;
+      min-width: 0;
       border: 1.5px solid var(--krem2);
       border-radius: 50px;
       padding: 11px 18px;
@@ -234,40 +244,16 @@
     /* ─── FOOTER ─────────────────────────────────────── */
     .footer {
       text-align: center;
-      margin-top: 18px;
-      color: var(--abu);
-      font-size: 0.78rem;
-    }
-
-    /* ─── SUGGESTION CHIPS ───────────────────────────── */
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      padding: 0 20px 14px;
+      padding: 8px;
       background: var(--putih);
+      color: var(--abu);
+      font-size: 0.75rem;
+      flex-shrink: 0;
+      border-top: 1px solid var(--krem2);
     }
-    .chip {
-      padding: 6px 13px;
-      border-radius: 50px;
-      border: 1.5px solid var(--krem2);
-      background: var(--krem);
-      color: var(--coklat);
-      font-size: 0.78rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      font-family: 'DM Sans', sans-serif;
-    }
-    .chip:hover { background: var(--emas); color: var(--putih); border-color: var(--emas); }
   </style>
 </head>
 <body>
-
-  <!--<div class="header">
-    <div class="batik-line"></div>
-    <h1>JA<span>TA</span></h1>
-    <p>Jelajah Kebudayaan Jawa Tengah</p>
-  </div> -->
 
   <div class="card">
     <div class="topbar">
@@ -279,7 +265,6 @@
     </div>
 
     <div class="messages" id="messages">
-      <!-- pesan awal dari bot -->
       <div class="bubble-wrap bot">
         <div class="bubble-avatar">🏛️</div>
         <div class="bubble">
@@ -292,7 +277,7 @@
     <div class="chips" id="chips">
       <span class="chip" onclick="sendChip(this)">Apa itu kebudayaan Jawa?</span>
       <span class="chip" onclick="sendChip(this)">Apa itu Jawa Tengah?</span>
-      <span class="chip" onclick="sendChip(this)">Bahasa apa saja yang digunakan di Jawa Tengah?</span>
+      <span class="chip" onclick="sendChip(this)">Bahasa apa saja di Jawa Tengah?</span>
       <span class="chip" onclick="sendChip(this)">Apa saja rumah adat Jawa Tengah?</span>
     </div>
 
@@ -305,9 +290,9 @@
         </svg>
       </button>
     </div>
-  </div>
 
-  <div class="footer">JATA · Proyek NLP .</div>
+    <div class="footer">JATA · Proyek NLP</div>
+  </div>
 
   <script>
     const messagesEl = document.getElementById('messages');
@@ -361,9 +346,7 @@
       const text = inputEl.value.trim();
       if (!text) return;
 
-      // sembunyikan chips setelah pertama kirim
       chipsEl.style.display = 'none';
-
       addBubble(text, 'user');
       inputEl.value = '';
       showTyping();
