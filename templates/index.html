@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JATA – Jelajah Budaya Jawa Tengah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --coklat:   #5c3d1e;
+      --emas:     #c9922a;
+      --emas-muda:#f0c060;
+      --krem:     #fdf6ec;
+      --krem2:    #f5e9d0;
+      --hijau:    #2d5016;
+      --putih:    #ffffff;
+      --abu:      #8a7560;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--krem);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-image:
+        radial-gradient(ellipse at 10% 20%, rgba(201,146,42,0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 90% 80%, rgba(92,61,30,0.10) 0%, transparent 50%);
+    }
+
+    /* ─── HEADER ─────────────────────────────────────── */
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .header .batik-line {
+      width: 120px;
+      height: 4px;
+      margin: 0 auto 14px;
+      background: linear-gradient(90deg, var(--emas), var(--coklat), var(--emas));
+      border-radius: 2px;
+    }
+    .header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      color: var(--coklat);
+      letter-spacing: 2px;
+    }
+    .header h1 span { color: var(--emas); }
+    .header p {
+      color: var(--abu);
+      font-size: 0.92rem;
+      margin-top: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ─── CARD ───────────────────────────────────────── */
+    .card {
+      width: 100%;
+      max-width: 680px;
+      background: var(--putih);
+      border-radius: 20px;
+      box-shadow:
+        0 4px 6px rgba(92,61,30,0.06),
+        0 20px 60px rgba(92,61,30,0.12);
+      border: 1.5px solid var(--krem2);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ─── CHAT TOPBAR ────────────────────────────────── */
+    .topbar {
+      background: linear-gradient(135deg, var(--coklat) 0%, #7a5230 100%);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .avatar {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, var(--emas), var(--emas-muda));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      box-shadow: 0 0 0 3px rgba(240,192,96,0.3);
+    }
+    .topbar-info h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--putih);
+      font-size: 1.1rem;
+    }
+    .topbar-info p {
+      color: var(--emas-muda);
+      font-size: 0.78rem;
+      margin-top: 2px;
+    }
+    .online-dot {
+      width: 8px; height: 8px;
+      background: #6fcf6f;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity:1; } 50% { opacity:0.4; }
+    }
+
+    /* ─── MESSAGES ───────────────────────────────────── */
+    .messages {
+      flex: 1;
+      padding: 24px 20px;
+      overflow-y: auto;
+      min-height: 380px;
+      max-height: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: var(--krem);
+      background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9922a' fill-opacity='0.04'%3E%3Cpath d='M20 20l10-10v5l5-5-5-5v5L20 0 10 10l5 5-5 5 5-5v-5L20 20z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .messages::-webkit-scrollbar { width: 5px; }
+    .messages::-webkit-scrollbar-track { background: transparent; }
+    .messages::-webkit-scrollbar-thumb { background: var(--krem2); border-radius: 10px; }
+
+    .bubble-wrap {
+      display: flex;
+      gap: 8px;
+      align-items: flex-end;
+      animation: fadeUp 0.3s ease;
+    }
+    @keyframes fadeUp {
+      from { opacity:0; transform: translateY(10px); }
+      to   { opacity:1; transform: translateY(0); }
+    }
+    .bubble-wrap.user { flex-direction: row-reverse; }
+
+    .bubble-avatar {
+      width: 30px; height: 30px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+    .bubble-wrap.bot .bubble-avatar  { background: linear-gradient(135deg, var(--emas), var(--emas-muda)); }
+    .bubble-wrap.user .bubble-avatar { background: linear-gradient(135deg, var(--coklat), #7a5230); color: #fff; }
+
+    .bubble {
+      max-width: 72%;
+      padding: 11px 16px;
+      border-radius: 18px;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+    .bubble-wrap.bot .bubble {
+      background: var(--putih);
+      color: var(--coklat);
+      border-bottom-left-radius: 4px;
+      box-shadow: 0 2px 8px rgba(92,61,30,0.08);
+      border: 1px solid var(--krem2);
+    }
+    .bubble-wrap.user .bubble {
+      background: linear-gradient(135deg, var(--coklat), #7a5230);
+      color: var(--putih);
+      border-bottom-right-radius: 4px;
+    }
+
+    /* typing indicator */
+    .typing .bubble {
+      padding: 14px 18px;
+    }
+    .dot-flashing {
+      display: flex; gap: 5px; align-items: center;
+    }
+    .dot-flashing span {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--emas);
+      animation: dotBounce 1.2s infinite ease-in-out;
+    }
+    .dot-flashing span:nth-child(2) { animation-delay: 0.2s; }
+    .dot-flashing span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes dotBounce {
+      0%,80%,100% { transform: scale(0.6); opacity:0.4; }
+      40%         { transform: scale(1);   opacity:1; }
+    }
+
+    /* ─── INPUT AREA ─────────────────────────────────── */
+    .input-area {
+      padding: 16px 20px;
+      background: var(--putih);
+      border-top: 1.5px solid var(--krem2);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .input-area input {
+      flex: 1;
+      border: 1.5px solid var(--krem2);
+      border-radius: 50px;
+      padding: 11px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      color: var(--coklat);
+      background: var(--krem);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .input-area input:focus { border-color: var(--emas); }
+    .input-area input::placeholder { color: var(--abu); }
+
+    .send-btn {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      border: none;
+      background: linear-gradient(135deg, var(--emas), #e0a830);
+      color: var(--putih);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.15s, box-shadow 0.15s;
+      flex-shrink: 0;
+    }
+    .send-btn:hover  { transform: scale(1.08); box-shadow: 0 4px 12px rgba(201,146,42,0.4); }
+    .send-btn:active { transform: scale(0.95); }
+    .send-btn svg { width: 18px; height: 18px; }
+
+    /* ─── FOOTER ─────────────────────────────────────── */
+    .footer {
+      text-align: center;
+      margin-top: 18px;
+      color: var(--abu);
+      font-size: 0.78rem;
+    }
+
+    /* ─── SUGGESTION CHIPS ───────────────────────────── */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 20px 14px;
+      background: var(--putih);
+    }
+    .chip {
+      padding: 6px 13px;
+      border-radius: 50px;
+      border: 1.5px solid var(--krem2);
+      background: var(--krem);
+      color: var(--coklat);
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .chip:hover { background: var(--emas); color: var(--putih); border-color: var(--emas); }
+  </style>
+</head>
+<body>
+
+  <!--<div class="header">
+    <div class="batik-line"></div>
+    <h1>JA<span>TA</span></h1>
+    <p>Jelajah Kebudayaan Jawa Tengah</p>
+  </div> -->
+
+  <div class="card">
+    <div class="topbar">
+      <div class="avatar">🏛️</div>
+      <div class="topbar-info">
+        <h2>JATA Chatbot</h2>
+        <p><span class="online-dot"></span>Siap menjawab pertanyaanmu</p>
+      </div>
+    </div>
+
+    <div class="messages" id="messages">
+      <!-- pesan awal dari bot -->
+      <div class="bubble-wrap bot">
+        <div class="bubble-avatar">🏛️</div>
+        <div class="bubble">
+          Halo! Aku <strong>JATA</strong> — chatbot budaya Jawa Tengah. 🌿<br/>
+          Tanyakan apa saja tentang kebudayaan Jawa Tengah ya!
+        </div>
+      </div>
+    </div>
+
+    <div class="chips" id="chips">
+      <span class="chip" onclick="sendChip(this)">Apa itu kebudayaan Jawa?</span>
+      <span class="chip" onclick="sendChip(this)">Apa itu Jawa Tengah?</span>
+      <span class="chip" onclick="sendChip(this)">Bahasa apa saja yang digunakan di Jawa Tengah?</span>
+      <span class="chip" onclick="sendChip(this)">Apa saja rumah adat Jawa Tengah?</span>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Tanyakan sesuatu tentang Jawa Tengah..." autocomplete="off"/>
+      <button class="send-btn" onclick="sendMessage()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="footer">JATA · Proyek NLP .</div>
+
+  <script>
+    const messagesEl = document.getElementById('messages');
+    const inputEl    = document.getElementById('userInput');
+    const chipsEl    = document.getElementById('chips');
+
+    function scrollBottom() {
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function addBubble(text, role) {
+      const wrap = document.createElement('div');
+      wrap.className = `bubble-wrap ${role}`;
+
+      const ava = document.createElement('div');
+      ava.className = 'bubble-avatar';
+      ava.textContent = role === 'bot' ? '🏛️' : '👤';
+
+      const bub = document.createElement('div');
+      bub.className = 'bubble';
+      bub.innerHTML = text;
+
+      wrap.appendChild(ava);
+      wrap.appendChild(bub);
+      messagesEl.appendChild(wrap);
+      scrollBottom();
+      return wrap;
+    }
+
+    function showTyping() {
+      const wrap = document.createElement('div');
+      wrap.className = 'bubble-wrap bot typing';
+      wrap.id = 'typing';
+      wrap.innerHTML = `
+        <div class="bubble-avatar">🏛️</div>
+        <div class="bubble">
+          <div class="dot-flashing">
+            <span></span><span></span><span></span>
+          </div>
+        </div>`;
+      messagesEl.appendChild(wrap);
+      scrollBottom();
+    }
+
+    function removeTyping() {
+      const t = document.getElementById('typing');
+      if (t) t.remove();
+    }
+
+    async function sendMessage() {
+      const text = inputEl.value.trim();
+      if (!text) return;
+
+      // sembunyikan chips setelah pertama kirim
+      chipsEl.style.display = 'none';
+
+      addBubble(text, 'user');
+      inputEl.value = '';
+      showTyping();
+
+      try {
+        const res  = await fetch('/chat', {
+          method : 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body   : JSON.stringify({ message: text })
+        });
+        const data = await res.json();
+        removeTyping();
+        addBubble(data.response, 'bot');
+      } catch(e) {
+        removeTyping();
+        addBubble('Maaf, terjadi kesalahan. Coba lagi ya!', 'bot');
+      }
+    }
+
+    function sendChip(el) {
+      inputEl.value = el.textContent;
+      sendMessage();
+    }
+
+    inputEl.addEventListener('keydown', e => {
+      if (e.key === 'Enter') sendMessage();
+    });
+  </script>
+</body>
+</html>

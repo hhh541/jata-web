@@ -1,0 +1,2207 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "input": [
+        "Halo",
+        "Hai",
+        "Hola",
+        "Assalamualaikum",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam",
+        "Hei JATA",
+        "Permisi",
+        "Haloo",
+        "Hayy",
+        "Halo JATA",
+        "Hai JATA",
+        "Selamat datang",
+        "Pagi",
+        "Siang",
+        "Malam",
+        "Halo semuanya",
+        "Hai semuanya",
+        "Assalamualaikum wr wb"
+      ],
+      "respon": [
+        "Halo! Selamat datang di JATA - Jelajah Jawa Tengah. Saya siap membantu kamu mengenal kebudayaan Jawa Tengah!"
+      ]
+    },
+    {
+      "tag": "perkenalan_jata",
+      "input": [
+        "Apa itu JATA?",
+        "Siapa kamu?",
+        "JATA itu singkatan dari apa?",
+        "Kamu bisa bantu apa?",
+        "Apa fungsi JATA?",
+        "Ceritakan tentang dirimu",
+        "Kamu chatbot apa?",
+        "Apa yang bisa kamu jelaskan?",
+        "Perkenalkan dirimu",
+        "Kamu siapa?",
+        "JATA itu apa sih?",
+        "Chatbot ini namanya apa?",
+        "Bot ini bisa ngapain?",
+        "Kenalan dong",
+        "Kamu bisa bantu aku?",
+        "Apa kemampuanmu?",
+        "Kamu dibuat untuk apa?",
+        "Apa tujuan dari JATA?"
+      ],
+      "respon": [
+       "Saya adalah JATA - Jelajah Jawa Tengah, chatbot yang dirancang untuk membantu kamu mengenal kebudayaan Jawa Tengah secara lengkap, mulai dari suku, bahasa, agama, rumah adat, pakaian, tari tradisional, hingga berbagai peninggalan budaya. Silakan tanya apa saja, saya siap membantu!"
+      ]
+    },
+    {
+      "tag": "kebudayaan_jawa",
+      "input": [
+        "Apa itu kebudayaan Jawa?",
+        "Jelaskan pengertian kebudayaan Jawa",
+        "Apa yang dimaksud dengan kebudayaan Jawa?",
+        "Kebudayaan Jawa itu seperti apa?",
+        "Bagaimana definisi kebudayaan Jawa?",
+        "Apa saja yang termasuk dalam kebudayaan Jawa?",
+        "Kebudayaan Jawa mencakup apa saja?",
+        "Apa ciri khas kebudayaan Jawa?",
+        "Nilai apa yang terkandung dalam kebudayaan Jawa?",
+        "Mengapa kebudayaan Jawa penting?",
+        "Bagaimana kebudayaan Jawa diwariskan?",
+        "Apa saja bentuk kebudayaan Jawa?",
+        "Mengapa kebudayaan Jawa masih dilestarikan?",
+        "Apa keunikan kebudayaan Jawa?",
+        "Kebudayaan Jawa berasal dari mana?",
+        "Dari mana asal-usul kebudayaan jawa"
+      ],
+      "respon": [
+        "Kebudayaan Jawa adalah hasil pemikiran, nilai, dan kearifan lokal masyarakat Jawa yang dituangkan dalam berbagai bentuk tradisi dan diwariskan secara turun-temurun hingga saat ini. Kebudayaan ini mencakup adat istiadat, bahasa, kesenian, upacara tradisional, sistem kepercayaan, hingga filosofi hidup yang menjunjung tinggi kesopanan, keseimbangan, dan keharmonisan. Karena itu, kebudayaan Jawa tidak hanya menjadi identitas masyarakat Jawa, tetapi juga bagian penting dari kekayaan budaya Indonesia yang terus dilestarikan."
+      ]
+    },
+    {
+      "tag": "jawa_tengah_umum",
+      "input": [
+        "Apa itu Jawa Tengah?",
+        "Ceritakan tentang Jawa Tengah",
+        "Jelaskan provinsi Jawa Tengah",
+        "Jawa Tengah itu provinsi apa?",
+        "Apa keistimewaan Jawa Tengah?",
+        "Jawa Tengah terkenal dengan apa?",
+        "Apa yang membuat Jawa Tengah istimewa?",
+        "Jawa Tengah itu gimana?",
+        "Kasih tau tentang Jawa Tengah",
+        "Info tentang Jawa Tengah dong",
+        "Jateng itu apa?",
+        "Kenapa Jawa Tengah terkenal?",
+        "Jawa Tengah ada apa aja?",
+        "Provinsi Jawa Tengah itu seperti apa?",
+        "Apa hal menarik tentang Jawa Tengah",
+        "Apa yang membuat Jawa Tengah unik dibanding provinsi lain?"
+      ],
+      "respon": [
+       "Jawa Tengah adalah sebuah provinsi yang terletak di tengah Pulau Jawa dan dikenal sebagai pusat kebudayaan Jawa. Provinsi ini memiliki kekayaan tradisi, seni, dan warisan budaya yang masih terjaga hingga kini. Kota-kota penting seperti Yogyakarta dan Surakarta menjadi pusat budaya dengan istana kerajaan Jawa yang masih ada, serta menjadi saksi pelestarian adat istiadat, tarian tradisional, musik, bahasa, dan upacara adat. Keistimewaan Jawa Tengah terletak pada kekayaan sejarah, budaya, dan filosofi hidup masyarakatnya, menjadikannya unik dan penting dalam identitas budaya Jawa dan Indonesia."
+      ]
+    },
+    {
+      "tag": "letak_jawa_tengah",
+      "input": [
+        "Di mana letak Jawa Tengah?",
+        "Jawa Tengah terletak di mana?",
+        "Posisi Jawa Tengah di Pulau Jawa bagaimana?",
+        "Jawa Tengah ada di bagian mana?",
+        "Di tengah Pulau Jawa ada provinsi apa?",
+        "Lokasi Jawa Tengah di mana?",
+        "Jawa Tengah berada di wilayah mana?",
+        "Di pulau mana Jawa Tengah berada?",
+        "Jawa Tengah letaknya di mana ya?",
+        "Jateng ada di mana?",
+        "Di mana sih Jawa Tengah?",
+        "Jawa Tengah lokasinya di mana?",
+        "Jawa Tengah itu ada di pulau apa?",
+        "Di peta Jawa Tengah ada di bagian mana?",
+        "Provinsi Jawa Tengah berada di mana letaknya?",
+        "Bisa jelaskan posisi Jawa Tengah di peta Indonesia?",
+        "Jawa Tengah terletak di bagian mana Pulau Jawa?",
+        "Apakah Jawa Tengah ada di bagian tengah Pulau Jawa?",
+        "Bagaimana posisi geografis Jawa Tengah dibanding provinsi lain?"
+      ],
+      "respon": [
+        "Jawa Tengah adalah provinsi yang berada di tengah Pulau Jawa. Posisi geografisnya membuat provinsi ini berbatasan dengan beberapa wilayah penting diantaranya di sebelah barat berbatasan dengan Provinsi Jawa Barat, di selatan dengan Daerah Istimewa Yogyakarta dan Samudra Hindia, di timur dengan Provinsi Jawa Timur, serta di utara menghadap Laut Jawa. Letaknya yang strategis juga mencakup Pulau Nusa Kambangan di selatan dan Kepulauan Karimun Jawa di Laut Jawa."
+      ]
+    },
+    {
+      "tag": "batas_barat_jawa_tengah",
+      "input": [
+        "Sebelah barat Jawa Tengah berbatasan dengan apa?",
+        "Batas barat Jawa Tengah apa?",
+        "Provinsi apa yang ada di sebelah barat Jawa Tengah?",
+        "Jawa Tengah berbatasan dengan Jawa Barat di sebelah mana?",
+        "Di sebelah barat Jawa Tengah ada provinsi apa?",
+        "Apa yang berbatasan langsung dengan barat Jawa Tengah?",
+        "Jawa Barat berbatasan dengan Jawa Tengah di sebelah mana?",
+        "Wilayah barat Jawa Tengah berbatasan dengan apa?",
+        "Jawa Tengah sebelah baratnya apa?",
+        "Barat Jawa Tengah berbatasan dengan mana?",
+        "Jawa Barat itu di sebelah mana Jawa Tengah?",
+        "Di barat Jawa Tengah ada apa?",
+        "Tetangga barat Jawa Tengah siapa?",
+        "Provinsi mana yang menjadi tetangga barat Jawa Tengah?",
+        "Apa yang ada di sebelah barat provinsi Jawa Tengah?"
+      ],
+      "respon": [
+        "Sebelah barat Jawa Tengah berbatasan langsung dengan Provinsi Jawa Barat, menjadikannya tetangga utama di sisi barat pulau ini."
+      ]
+    },
+    {
+      "tag": "batas_selatan_jawa_tengah",
+      "input": [
+        "Sebelah selatan Jawa Tengah berbatasan dengan apa?",
+        "Batas selatan Jawa Tengah apa?",
+        "Apa yang ada di sebelah selatan Jawa Tengah?",
+        "Samudra apa yang berbatasan dengan selatan Jawa Tengah?",
+        "Jawa Tengah selatan berbatasan dengan DIY?",
+        "Di selatan Jawa Tengah ada wilayah apa?",
+        "Samudra Hindia berbatasan dengan Jawa Tengah di sisi mana?",
+        "DIY berbatasan dengan Jawa Tengah di bagian mana?",
+        "Jawa Tengah sebelah selatannya apa?",
+        "Selatan Jawa Tengah berbatasan dengan mana?",
+        "Di selatan Jawa Tengah ada apa?",
+        "Samudra apa di selatan Jawa Tengah?",
+        "Tetangga selatan Jawa Tengah apa?",
+        "Wilayah selatan Jawa Tengah itu ada apa saja?",
+        "Dengan siapa Jawa Tengah berbatasan di selatan?"
+      ],
+      "respon": [
+        "Di bagian selatan, Jawa Tengah berbatasan dengan Daerah Istimewa Yogyakarta (DIY) serta Samudra Hindia, sehingga wilayah selatan provinsi ini terdiri dari daratan dan garis pantai yang menghadap samudra."
+      ]
+    },
+    {
+      "tag": "batas_timur_jawa_tengah",
+      "input": [
+        "Sebelah timur Jawa Tengah berbatasan dengan apa?",
+        "Batas timur Jawa Tengah apa?",
+        "Provinsi apa yang ada di sebelah timur Jawa Tengah?",
+        "Jawa Timur berbatasan dengan Jawa Tengah di sebelah mana?",
+        "Di timur Jawa Tengah ada provinsi apa?",
+        "Apa yang berbatasan langsung dengan timur Jawa Tengah?",
+        "Jawa Tengah berbatasan dengan Jawa Timur di bagian apa?",
+        "Wilayah timur Jawa Tengah bertemu dengan apa?",
+        "Jawa Tengah sebelah timurnya apa?",
+        "Timur Jawa Tengah berbatasan dengan mana?",
+        "Di timur Jawa Tengah ada apa?",
+        "Jawa Timur posisinya di mana dari Jawa Tengah?",
+        "Tetangga timur Jawa Tengah siapa?",
+        "Tetangga timur Jawa Tengah itu provinsi mana?",
+        "Apa yang berbatasan dengan Jawa Tengah di sisi timur?"
+      ],
+      "respon": [
+        "Sebelah timur Jawa Tengah berbatasan dengan Provinsi Jawa Timur, sehingga wilayah timurnya bertemu dengan salah satu provinsi terbesar di Pulau Jawa."
+      ]
+    },
+    {
+      "tag": "batas_utara_jawa_tengah",
+      "input": [
+        "Sebelah utara Jawa Tengah berbatasan dengan apa?",
+        "Batas utara Jawa Tengah apa?",
+        "Laut apa yang ada di utara Jawa Tengah?",
+        "Di sebelah utara Jawa Tengah ada apa?",
+        "Laut Jawa ada di sisi mana Jawa Tengah?",
+        "Apa yang berbatasan dengan utara Jawa Tengah?",
+        "Jawa Tengah bagian utara menghadap ke laut apa?",
+        "Di utara Jawa Tengah ada laut apa?",
+        "Jawa Tengah sebelah utaranya apa?",
+        "Utara Jawa Tengah berbatasan dengan mana?",
+        "Laut Jawa itu ada di sisi mana?",
+        "Tetangga utara Jawa Tengah apa?",
+        "Wilayah utara Jawa Tengah menghadap laut apa?",
+        "Apa yang ada di sisi utara provinsi Jawa Tengah?"
+      ],
+      "respon": [
+        "Di sisi utara, Jawa Tengah berbatasan dengan Laut Jawa, memberikan provinsi ini akses ke perairan dan gugusan pulau-pulau kecil di sekitarnya."
+      ]
+    },
+    {
+      "tag": "luas_jawa_tengah",
+      "input": [
+        "Berapa luas wilayah Jawa Tengah?",
+        "Jawa Tengah memiliki luas berapa km2?",
+        "Luas Jawa Tengah berapa?",
+        "Jawa Tengah berapa persen dari Pulau Jawa?",
+        "Berapa persentase luas Jawa Tengah dari Pulau Jawa?",
+        "Jawa Tengah luasnya sekitar berapa?",
+        "Seberapa besar wilayah Jawa Tengah?",
+        "Berapa kilometer persegi luas Jawa Tengah?",
+        "Jawa Tengah luasnya berapa?",
+        "Berapa km2 Jawa Tengah?",
+        "Jateng itu luas atau kecil?",
+        "Wilayah Jawa Tengah seberapa besar?",
+        "Luas Jateng berapa km persegi?",
+        "Jawa Tengah itu berapa persen luas Pulau Jawa?",
+        "Seberapa besar luas wilayah Jawa Tengah dibanding Pulau Jawa?",
+        "Berapa kilometer persegi wilayah Jawa Tengah?"
+      ],
+      "respon": [
+        "Jawa Tengah memiliki luas wilayah sekitar 32.548 km², yang mencakup sekitar 25% dari total luas Pulau Jawa, menjadikannya salah satu provinsi yang cukup luas di pulau ini."
+      ]
+    },
+    {
+      "tag": "pulau_nusa_kambangan",
+      "input": [
+        "Apa itu Pulau Nusa Kambangan?",
+        "Nusa Kambangan termasuk wilayah mana?",
+        "Di mana letak Pulau Nusa Kambangan?",
+        "Nusa Kambangan masuk provinsi apa?",
+        "Ceritakan tentang Nusa Kambangan",
+        "Nusa Kambangan ada di laut apa?",
+        "Pulau apa yang termasuk wilayah Jawa Tengah?",
+        "Apa hubungan Nusa Kambangan dengan Jawa Tengah?",
+        "Nusa Kambangan itu pulau apa?",
+        "Pulau penjara Nusa Kambangan itu di mana?",
+        "Nusa Kambangan masuk daerah mana?",
+        "Nusa Kambangan itu termasuk provinsi apa?",
+        "Di mana Nusa Kambangan berada?",
+        "Cerita tentang Nusa Kambangan dong",
+        "Nusa Kambangan itu pulau milik provinsi mana?",
+        "Di mana posisi Pulau Nusa Kambangan di Jawa Tengah?"
+      ],
+      "respon": [
+        "Pulau Nusa Kambangan termasuk dalam wilayah administrasi Provinsi Jawa Tengah dan terletak di bagian selatan provinsi, menghadap Samudra Hindia. Pulau ini dikenal karena kombinasi wilayah daratan dan lautnya yang strategis."
+      ]
+    },
+    {
+      "tag": "kepulauan_karimun_jawa",
+      "input": [
+        "Apa itu Kepulauan Karimun Jawa?",
+        "Karimun Jawa terletak di mana?",
+        "Karimun Jawa masuk wilayah mana?",
+        "Karimun Jawa ada di laut apa?",
+        "Ceritakan tentang Kepulauan Karimun Jawa",
+        "Apakah Karimun Jawa termasuk Jawa Tengah?",
+        "Di mana Kepulauan Karimun Jawa berada?",
+        "Karimun Jawa itu kepulauan di mana?",
+        "Karimun Jawa itu di mana?",
+        "Kepulauan Karimun Jawa masuk wilayah apa?",
+        "Karimun Jawa ada di laut mana?",
+        "Cerita tentang Karimun Jawa dong",
+        "Apakah Karimun Jawa itu bagian Jawa Tengah?",
+        "Karimun Jawa itu kepulauan apa?",
+        "Karimun Jawa itu kepulauan milik provinsi mana?",
+        "Di Laut Jawa ada pulau apa yang termasuk Jawa Tengah?"
+      ],
+      "respon": [
+        "Kepulauan Karimun Jawa adalah gugusan pulau yang terletak di Laut Jawa dan secara administratif termasuk dalam Provinsi Jawa Tengah. Kepulauan ini terkenal karena keindahan alamnya, ekosistem laut, dan destinasi wisata baharinya."
+      ]
+    },
+    {
+      "tag": "suku_jawa_tengah_umum",
+      "input": [
+        "Apa saja suku yang ada di Jawa Tengah?",
+        "Sebutkan suku-suku yang ada di Jawa Tengah",
+        "Jawa Tengah dihuni suku apa saja?",
+        "Ada berapa macam suku di Jawa Tengah?",
+        "Suku bangsa apa yang mendiami Jawa Tengah?",
+        "Suku apa saja yang hidup di Jawa Tengah?",
+        "Sebutkan etnis yang ada di Jawa Tengah",
+        "Suku-suku di Jawa Tengah apa saja?",
+        "Di Jawa Tengah ada suku apa?",
+        "Etnis apa yang ada di Jawa Tengah?",
+        "Siapa saja yang tinggal di Jawa Tengah?",
+        "Jawa Tengah dihuni oleh suku apa saja?",
+        "Ada berapa suku di Jawa Tengah?",
+        "Suku-suku apa saja yang menghuni Jawa Tengah?",
+        "Jawa Tengah terdiri dari etnis apa saja?"
+      ],
+      "respon": [
+        "Di Jawa Tengah terdapat beberapa suku, yaitu Suku Jawa, Suku Sunda, Suku Tionghoa, dan Suku Batak. Sebagian besar penduduknya merupakan Suku Jawa, sehingga budaya Jawa sangat dominan dan menjadi pusat budaya dengan kota penting seperti Yogyakarta dan Surakarta yang memiliki istana kerajaan Jawa hingga kini."
+      ]
+    },
+    {
+      "tag": "suku_jawa_dominan",
+      "input": [
+        "Suku apa yang paling banyak di Jawa Tengah?",
+        "Suku dominan di Jawa Tengah apa?",
+        "Suku mayoritas di Jawa Tengah apa?",
+        "Suku terbesar di Jawa Tengah apa?",
+        "Siapa penduduk mayoritas Jawa Tengah?",
+        "Mengapa suku Jawa mendominasi Jawa Tengah?",
+        "Berapa persen suku Jawa di Jawa Tengah?",
+        "Suku apa yang paling banyak tinggal di Jawa Tengah?",
+        "Suku apa yang terbesar di Jawa Tengah?",
+        "Mayoritas penduduk Jawa Tengah suku apa?",
+        "Suku Jawa dominan di Jawa Tengah?",
+        "Paling banyak suku apa di Jawa Tengah?",
+        "Suku yang menguasai Jawa Tengah apa?",
+        "Siapa mayoritas penduduk Jawa Tengah?"
+      ],
+      "respon": [
+        "Sebagian besar penduduk Jawa Tengah merupakan Suku Jawa. Kebudayaan Jawa Tengah ini dikenal sebagai pusat budaya di mana terdapat kota Yogyakarta dan Surakarta dengan pusat istana kerajaan Jawa yang masih ada hingga kini."
+      ]
+    },
+    {
+      "tag": "suku_jawa_asal",
+      "input": [
+        "Suku Jawa berasal dari mana saja?",
+        "Di provinsi mana saja suku Jawa tinggal?",
+        "Suku Jawa tersebar di mana?",
+        "Suku Jawa tidak hanya di Jawa Tengah?",
+        "Daerah asal suku Jawa di mana?",
+        "Suku Jawa mendiami wilayah mana saja?",
+        "Suku Jawa ada di provinsi apa saja di Indonesia?",
+        "Selain Jawa Tengah, suku Jawa ada di mana?",
+        "Suku Jawa asalnya dari mana?",
+        "Suku Jawa tersebar di mana saja?",
+        "Di mana saja suku Jawa tinggal?",
+        "Suku Jawa tidak cuma di Jawa Tengah?",
+        "Provinsi mana yang ada suku Jawanya?",
+        "Suku Jawa tersebar di provinsi mana saja di Indonesia?",
+        "Dari mana asal-usul suku Jawa?"
+      ],
+      "respon": [
+        "Suku Jawa berasal dari beberapa wilayah di Indonesia, antara lain Jawa Tengah, Jawa Timur, Daerah Istimewa Yogyakarta, Kabupaten Indramayu di Jawa Barat, serta Kabupaten/Kota Serang dan Cilegon di Banten."
+      ]
+    },
+    {
+      "tag": "suku_jawa_populasi",
+      "input": [
+        "Berapa persen penduduk Indonesia adalah suku Jawa?",
+        "Suku Jawa berapa persen dari total penduduk Indonesia?",
+        "Apakah suku Jawa terbesar di Indonesia?",
+        "Berapa jumlah etnis Jawa di Indonesia?",
+        "Persentase suku Jawa di Indonesia berapa?",
+        "Suku Jawa mendominasi berapa persen penduduk Indonesia?",
+        "Pada tahun 2010 suku Jawa berapa persen?",
+        "Data sensus suku Jawa di Indonesia bagaimana?",
+        "Suku Jawa berapa persen di Indonesia?",
+        "Seberapa banyak suku Jawa di Indonesia?",
+        "Suku Jawa terbesar di Indonesia?",
+        "Berapa jumlah orang Jawa di Indonesia?",
+        "Data sensus suku Jawa berapa persen?",
+        "Seberapa besar populasi suku Jawa di Indonesia?",
+        "Berapa persen penduduk Indonesia adalah Suku Jawa?"
+      ],
+      "respon": [
+        "Suku Jawa merupakan suku bangsa terbesar di Indonesia. Pada tahun 2010, setidaknya 40,22% penduduk Indonesia merupakan etnis Jawa."
+      ]
+    },
+    {
+      "tag": "suku_sunda_pengertian",
+      "input": [
+        "Apa itu suku Sunda?",
+        "Jelaskan tentang suku Sunda",
+        "Suku Sunda itu kelompok etnis apa?",
+        "Siapa yang disebut orang Sunda?",
+        "Suku Sunda berasal dari bagian mana Pulau Jawa?",
+        "Suku Sunda itu dari mana?",
+        "Ceritakan tentang suku Sunda",
+        "Suku Sunda adalah etnis yang bagaimana?",
+        "Orang Sunda itu siapa?",
+        "Sunda itu suku dari daerah mana?",
+        "Jelaskan suku Sunda dong",
+        "Suku Sunda asalnya dari mana?",
+        "Orang Sunda berasal dari bagian mana Pulau Jawa?",
+        "Apa ciri kelompok etnis Sunda?"
+      ],
+      "respon": [
+        "Suku Sunda adalah kelompok etnis yang berasal dari bagian barat Pulau Jawa. Wilayah asal mereka dikenal dengan istilah Tatar Pasundan. Suku Sunda memiliki bahasa, adat, dan tradisi khas yang berbeda dengan suku-suku lain di Pulau Jawa."
+      ]
+    },
+    {
+      "tag": "tatar_pasundan",
+      "input": [
+        "Apa itu Tatar Pasundan?",
+        "Tatar Pasundan mencakup wilayah mana saja?",
+        "Tatar Pasundan itu istilah untuk apa?",
+        "Wilayah apa saja yang termasuk Tatar Pasundan?",
+        "Tatar Pasundan mencakup provinsi apa?",
+        "Apa hubungan Tatar Pasundan dengan suku Sunda?",
+        "Jakarta termasuk Tatar Pasundan?",
+        "Banten termasuk wilayah Tatar Pasundan?",
+        "Pasundan itu wilayah mana?",
+        "Tatar Pasundan mencakup daerah apa saja?",
+        "Wilayah Sunda itu di mana saja?",
+        "Pasundan itu istilah untuk apa?",
+        "Banten termasuk Pasundan tidak?",
+        "Wilayah Tatar Pasundan itu mencakup daerah mana saja?",
+        "Apa saja yang termasuk Tatar Pasundan?"
+      ],
+      "respon": [
+        "Tatar Pasundan adalah istilah untuk wilayah asal suku Sunda. Wilayah ini mencakup Provinsi Jawa Barat, Banten, Jakarta, serta bagian barat Jawa Tengah."
+      ]
+    },
+    {
+      "tag": "suku_tionghoa_indonesia",
+      "input": [
+        "Apa itu suku Tionghoa Indonesia?",
+        "Orang Tionghoa Indonesia itu siapa?",
+        "Suku Tionghoa berasal dari mana?",
+        "Asal usul suku Tionghoa Indonesia dari mana?",
+        "Tionghoa Indonesia itu etnis apa?",
+        "Ceritakan tentang suku Tionghoa di Indonesia",
+        "Leluhur suku Tionghoa Indonesia dari mana?",
+        "Orang keturunan China di Indonesia disebut apa?",
+        "Suku Tionghoa asalnya dari mana?",
+        "Etnis Tionghoa di Indonesia itu bagaimana?",
+        "Keturunan China di Indonesia disebut apa?",
+        "Ceritakan tentang Tionghoa Indonesia",
+        "Orang Tionghoa-Indonesia itu berasal dari mana?",
+        "Suku Tionghoa di Indonesia leluhurnya dari negara apa?"
+      ],
+      "respon": [
+        "Orang Tionghoa-Indonesia adalah salah satu etnis di Indonesia yang leluhur mereka berasal dari Tiongkok (China). Mereka telah lama menetap dan menjadi bagian dari masyarakat Indonesia."
+      ]
+    },
+    {
+      "tag": "suku_batak_pengertian",
+      "input": [
+        "Apa itu suku Batak?",
+        "Suku Batak berasal dari mana?",
+        "Jelaskan tentang suku Batak",
+        "Suku Batak itu suku dari mana?",
+        "Ceritakan tentang suku Batak",
+        "Batak itu nama suku dari daerah mana?",
+        "Di mana suku Batak banyak ditemukan?",
+        "Suku Batak mendiami wilayah mana?",
+        "Batak itu suku dari mana?",
+        "Suku Batak berasal dari wilayah mana di Indonesia?",
+        "Orang Batak mendiami daerah apa saja?",
+        "Suku Batak asalnya dari daerah mana?",
+        "Orang Batak itu dari mana?",
+        "Jelaskan suku Batak dong",
+        "Batak itu etnis dari pulau mana?"
+      ],
+      "respon": [
+        "Suku Batak merupakan salah satu suku bangsa terbesar di Indonesia. Nama Batak merupakan tema kolektif untuk mengidentifikasikan beberapa suku yang bermukim dan berasal dari wilayah Pantai Barat dan Pantai Timur di Provinsi Sumatera Utara, termasuk beberapa rumpun suku di dalamnya termasuk toba."
+      ]
+    },
+    {
+      "tag": "suku_batak_rumpun",
+      "input": [
+        "Batak itu hanya suku Toba saja?",
+        "Apakah Batak hanya suku Toba?",
+        "Suku Batak itu terdiri dari apa saja?",
+        "Batak bukan hanya Toba, apa lagi?",
+        "Mengapa orang salah paham tentang Batak?",
+        "Apa yang dimaksud Batak adalah rumpun suku?",
+        "Suku apa saja yang termasuk rumpun Batak?",
+        "Batak itu rumpun suku yang mendiami wilayah mana?",
+        "Batak itu cuma Toba saja?",
+        "Suku Batak ada berapa macam?",
+        "Rumpun Batak itu ada apa saja?",
+        "Apakah Batak hanya suku Toba saja?",
+        "Rumpun Batak terdiri dari suku apa saja?",
+        "Apakah Batak lebih dari satu suku?",
+        "Batak bukan hanya Toba saja kan?"
+      ],
+      "respon": [
+        "Batak adalah rumpun suku yang mendiami sebagian besar wilayah Sumatera Utara. Meskipun sering dianggap hanya suku Toba, sebenarnya rumpun Batak mencakup beberapa suku lain dan tidak terbatas pada Toba saja."
+      ]
+    },
+    {
+      "tag": "bahasa_umum",
+      "input": [
+        "Bahasa apa saja yang digunakan di Jawa Tengah?",
+        "Ada berapa bahasa yang dipakai masyarakat Jawa Tengah?",
+        "Bahasa sehari-hari di Jawa Tengah apa saja?",
+        "Selain Bahasa Indonesia, bahasa apa yang dipakai di Jawa Tengah?",
+        "Bahasa Jawa digunakan di wilayah mana di Jawa Tengah?",
+        "Dialek Bahasa Jawa apa yang populer di Jawa Tengah?",
+        "Bahasa resmi dan bahasa daerah di Jawa Tengah apa saja?",
+        "Bagaimana penggunaan bahasa di Jawa Tengah?",
+        "Bahasa apa yang dominan di Jawa Tengah?",
+        "Masyarakat Jawa Tengah berbicara bahasa apa sehari-hari?"
+      ],
+      "respon": [
+        "Di Jawa Tengah, masyarakat menggunakan beberapa bahasa. Bahasa resmi adalah Bahasa Indonesia yang berfungsi sebagai bahasa persatuan bangsa. Namun, sebagian besar penduduk sehari-hari masih menggunakan Bahasa Jawa, terutama Dialek Solo-Jogja yang dianggap sebagai Bahasa Jawa Standar. Selain itu, terdapat beberapa dialek lain, secara umum terbagi menjadi dua bagian, yakni kulonan (Jawa bagian barat) dan timuran (Jawa bagian timur). Dengan demikian, Bahasa Jawa menjadi bahasa dominan dalam kehidupan sehari-hari di Jawa Tengah, meski Bahasa Indonesia tetap dipakai untuk urusan resmi dan pendidikan."
+      ]
+    },
+    {
+      "tag": "bahasa_indonesia_resmi",
+      "input": [
+        "Apa itu Bahasa Indonesia?",
+        "Bahasa Indonesia adalah bahasa apa?",
+        "Bahasa resmi Indonesia apa?",
+        "Apa fungsi Bahasa Indonesia?",
+        "Bahasa Indonesia dipakai untuk apa di Jawa Tengah?",
+        "Mengapa Bahasa Indonesia penting bagi masyarakat Jawa Tengah?",
+        "Bahasa Indonesia sebagai bahasa persatuan bagaimana?",
+        "Mengapa Bahasa Indonesia disebut bahasa resmi?",
+        "Bahasa resmi Republik Indonesia apa?",
+        "Apa peran Bahasa Indonesia di Jawa Tengah?",
+        "Apa bahasa nasional Indonesia?",
+        "Indonesia pakai bahasa apa?",
+        "Bahasa persatuan Indonesia apa?",
+        "Bahasa Indonesia itu bahasa apa sih?"
+      ],
+      "respon": [
+        "Bahasa Indonesia adalah bahasa resmi Republik Indonesia dan bahasa persatuan bangsa Indonesia. Di Jawa Tengah, Bahasa Indonesia digunakan dalam pemerintahan, pendidikan, media, dan komunikasi resmi antarwarga yang berbeda suku."
+      ]
+    },
+    {
+      "tag": "bahasa_jawa_pengertian",
+      "input": [
+        "Apa itu Bahasa Jawa?",
+        "Bahasa Jawa termasuk rumpun bahasa apa?",
+        "Bahasa Jawa itu bahasa apa?",
+        "Bahasa Jawa dituturkan oleh siapa?",
+        "Bahasa Jawa digunakan di bagian mana Pulau Jawa?",
+        "Jelaskan tentang Bahasa Jawa",
+        "Bahasa Jawa itu bahasa daerah dari mana?",
+        "Orang Jawa ngomong bahasa apa?",
+        "Bahasa Jawa dipakai di mana?",
+        "Siapa saja yang menggunakan Bahasa Jawa di Jawa Tengah?",
+        "Bahasa Jawa dituturkan di wilayah mana saja?",
+        "Jelaskan bahasa Jawa dong",
+        "Bahasa Jawa itu rumpun bahasa apa?"
+      ],
+      "respon": [
+        "Bahasa Jawa adalah bahasa Austronesia yang utamanya dituturkan oleh penduduk bersuku Jawa di wilayah bagian tengah dan timur Pulau Jawa. Bahasa ini menjadi bahasa sehari-hari bagi sebagian besar masyarakat Jawa Tengah."
+      ]
+    },
+    {
+      "tag": "bahasa_jawa_standar",
+      "input": [
+        "Apa itu Bahasa Jawa Standar?",
+        "Dialek Jawa mana yang dianggap standar?",
+        "Apakah semua orang Jawa Tengah pakai dialek Solo-Jogja?",
+        "Kenapa dialek Solo-Jogja dianggap standar?",
+        "Bahasa Jawa Solo Jogja itu apa?",
+        "Mengapa dialek Solo Jogja dianggap standar?",
+        "Bahasa Jawa yang baku itu apa?",
+        "Dialek Jawa mana yang paling sering dipakai?",
+        "Bahasa Jawa baku diucapkan seperti apa?",
+        "Apakah semua orang Jawa pakai bahasa yang sama?",
+        "Bahasa Jawa yang baku itu yang mana?",
+        "Dialek Jawa mana yang standar?",
+        "Bahasa Jawa Solo Jogja itu gimana?",
+        "Jawa Tengah pakai dialek Jawa yang mana?",
+        "Mana dialek Jawa yang paling umum dipakai?"
+      ],
+      "respon": [
+        "Bahasa Jawa Standar di Jawa Tengah umumnya merujuk pada Dialek Solo-Jogja. Dialek ini dianggap standar karena digunakan secara luas dalam komunikasi sehari-hari maupun dalam konteks formal dan budaya. Meskipun ada beberapa dialek lain di Jawa Tengah, Dialek Solo-Jogja menjadi yang paling umum dipakai dan dianggap sebagai acuan Bahasa Jawa baku di wilayah tengah Pulau Jawa."
+      ]
+    },
+    {
+      "tag": "dialek_kulonan_timuran",
+      "input": [
+        "Apa itu dialek kulonan?",
+        "Apa itu dialek timuran?",
+        "Bahasa Jawa terbagi jadi berapa dialek?",
+        "Apa perbedaan kulonan dan timuran?",
+        "Kulonan dan timuran itu istilah apa?",
+        "Dialek Bahasa Jawa secara umum ada berapa?",
+        "Bahasa Jawa bagian barat disebut apa?",
+        "Bahasa Jawa bagian timur disebut apa?",
+        "Kulonan itu apa?",
+        "Timuran itu dialek apa?",
+        "Bahasa Jawa dibagi jadi berapa dialek?",
+        "Bedanya kulonan dan timuran apa?",
+        "Dialek barat Jawa itu disebut apa?",
+        "Bagaimana perbedaan dialek kulonan dan timuran?",
+        "Dialek kulonan digunakan di wilayah mana?"
+      ],
+      "respon": [
+        "Secara umum, Bahasa Jawa terdiri dari dua dialek utama, yakni kulonan (dialek Jawa bagian barat) dan timuran (dialek Jawa bagian timur). Kulonan biasanya dipakai di wilayah barat Jawa Tengah, sedangkan timuran digunakan di bagian timur Pulau Jawa."
+      ]
+    },
+     {
+      "tag": "agama_umum",
+      "input": [
+        "Agama apa saja yang ada di Jawa Tengah?",
+        "Ada berapa agama di Jawa Tengah?",
+        "Masyarakat Jawa Tengah menganut agama apa saja?",
+        "Apa saja agama yang dianut di Jawa Tengah?",
+        "Agama di Jawa Tengah terdiri dari apa saja?",
+        "Jawa Tengah memiliki agama apa saja?",
+        "Mayoritas agama di Jawa Tengah apa?",
+        "Kepercayaan apa saja yang ada di Jawa Tengah?",
+        "Agama yang dianut penduduk Jawa Tengah apa saja?",
+        "Bagaimana kondisi keagamaan di Jawa Tengah?",
+        "Berapa agama yang dianut masyarakat Jawa Tengah"
+      ],
+      "respon": [
+        "Di Jawa Tengah terdapat beberapa agama yang dianut oleh masyarakat, yaitu Islam, Kristen (Protestan dan Katolik), Hindu, Buddha, dan Kong Hu Cu. Islam menjadi agama mayoritas yang dianut oleh sebagian besar penduduk. Selain itu, masyarakat Jawa Tengah juga masih mempertahankan tradisi kejawen dalam kehidupan sehari-hari, yang sering dikenal dengan istilah abangan. Keberagaman agama ini mencerminkan kehidupan masyarakat yang beragam namun tetap hidup berdampingan."
+      ]
+    },
+    {
+      "tag": "agama_islam_pengertian",
+      "input": [
+        "Apa itu agama Islam?",
+        "Islam itu agama apa?",
+        "Jelaskan tentang agama Islam",
+        "Agama Islam mengajarkan apa?",
+        "Islam termasuk agama apa?",
+        "Apa ajaran utama dalam agama Islam?",
+        "Islam mengajarkan kepercayaan apa saja?",
+        "Apa itu agama samawi?",
+        "Islam mengajarkan monoteisme?",
+        "Ajaran pokok agama Islam apa saja?",
+        "Islam itu agama dari mana?",
+        "Apa agama Islam itu?",
+        "Islam mengajarkan apa saja?",
+        "Islam itu agama monoteisme?",
+        "Agama Islam percaya pada apa?"
+      ],
+      "respon": [
+        "Islam adalah salah satu agama dari kelompok agama samawi yang diterima oleh seorang nabi. Islam mengajarkan monoteisme tanpa kompromi, yaitu kepercayaan kepada satu Tuhan, serta iman terhadap wahyu, hari akhir, dan tanggung jawab manusia dalam menjalani kehidupan."
+      ]
+    },
+    {
+      "tag": "agama_kristen_pengertian",
+      "input": [
+        "Apa itu agama Kristen?",
+        "Kristen itu agama apa?",
+        "Jelaskan tentang agama Kristen",
+        "Agama Kristen berdasar pada apa?",
+        "Yesus Kristus dalam agama Kristen itu bagaimana?",
+        "Apa itu Kekristenan?",
+        "Kristen termasuk agama apa?",
+        "Apa dasar kepercayaan agama Kristen?",
+        "Kristen percaya pada siapa?",
+        "Apa yang menjadi dasar ajaran agama Kristen?",
+        "Kekristenan berpusat pada siapa?",
+        "Jelaskan agama Kristen dong"
+      ],
+      "respon": [
+        "Kekristenan adalah sebuah kepercayaan yang berdasar pada ajaran, hidup, sengsara, wafat, dan kebangkitan Yesus Kristus atau Isa Almasih. Agama Kristen termasuk salah satu dari agam Abrahamik yang berdasarkan kehidupan, pengajaran, penyaliban, kematian, kebangkitan, dan kenaikan Yesus dari Nazaret ke surga, sebagaimana dijelaskan dalam perjanjian baru."
+      ]
+    },
+    {
+      "tag": "agama_kristen_perjanjian_baru",
+      "input": [
+        "Apa itu Perjanjian Baru?",
+        "Perjanjian Baru berisi tentang apa?",
+        "Perjanjian Baru dalam Kristen itu apa?",
+        "Kitab apa yang menjelaskan Yesus dalam Kristen?",
+        "Yesus naik ke surga dijelaskan di mana?",
+        "Apa yang diceritakan Perjanjian Baru tentang Yesus?",
+        "Agama Kristen berdasarkan kitab apa?",
+        "Kehidupan Yesus dalam kitab apa?",
+        "Kitab suci Kristen apa?",
+        "Perjanjian Baru itu kitab apa?",
+        "Isi Perjanjian Baru tentang apa?",
+        "Yesus ada di kitab mana?",
+        "Agama Kristen kitab sucinya apa?",
+        "Kitab suci yang menceritakan Yesus itu apa?",
+        "Perjanjian Baru menjelaskan apa saja tentang Yesus?"
+      ],
+      "respon": [
+        "Perjanjian Baru adalah bagian dari kitab suci agama Kristen yang menjelaskan kehidupan, pengajaran, penyaliban, kematian, kebangkitan, dan kenaikan Yesus dari Nazaret ke surga."
+      ]
+    },
+    {
+      "tag": "agama_hindu_pengertian",
+      "input": [
+        "Apa itu agama Hindu?",
+        "Hindu itu agama dari mana?",
+        "Jelaskan tentang agama Hindu",
+        "Agama Hindu berkembang di mana?",
+        "Hindu dominan di negara mana?",
+        "Agama apa yang dominan di India?",
+        "Apa ciri khas agama Hindu?",
+        "Hindu termasuk agama apa?",
+        "Agama Hindu berkembang di negara mana?",
+        "Hindu dominan di mana?",
+        "Jelaskan agama Hindu dong",
+        "Agama Hindu berkembang di wilayah mana?",
+        "Apa yang menjadi ciri agama Hindu?"
+      ],
+      "respon": [
+        "Agama Hindu merupakan agama yang berkembang di Asia Selatan, terutama di India dan Nepal. Agama ini memiliki beragam tradisi dan menjadi salah satu agama yang memiliki sistem kepercayaan yang luas.Agama ini meliputi berbagai macam aliran."
+      ]
+    },
+    {
+      "tag": "aliran_hindu",
+      "input": [
+        "Apa saja aliran dalam agama Hindu?",
+        "Aliran Hindu ada apa saja?",
+        "Apa itu Saiwa dalam Hindu?",
+        "Apa itu Waisnawa dalam Hindu?",
+        "Hindu memiliki berapa aliran utama?",
+        "Apa saja contoh aliran dalam agama Hindu?",
+        "Apa itu Sakta dalam Hindu?",
+        "Sebutkan aliran-aliran agama Hindu",
+        "Hindu terbagi menjadi aliran apa saja?",
+        "Apa perbedaan Saiwa Waisnawa dan Sakta?",
+        "Hindu punya aliran apa saja?",
+        "Saiwa itu aliran Hindu apa?",
+        "Waisnawa itu aliran apa?",
+        "Sakta dalam Hindu itu apa?",
+        "Hindu terbagi jadi aliran apa?"
+      ],
+      "respon": [
+        "Agama Hindu memiliki berbagai aliran, di antaranya Saiwa, Waisnawa, dan Sakta. Selain itu, Hindu juga memiliki pandangan luas tentang kehidupan yang berkaitan dengan moralitas berdasarkan karma, dharma, dan norma dalam masyarakat."
+      ]
+    },
+    {
+      "tag": "karma_dharma_hindu",
+      "input": [
+        "Apa itu karma dalam Hindu?",
+        "Apa itu dharma dalam Hindu?",
+        "Karma dan dharma Hindu itu bagaimana?",
+        "Ajaran moral Hindu berdasarkan apa?",
+        "Apa pandangan Hindu tentang moralitas?",
+        "Hukum karma dalam Hindu itu apa?",
+        "Dharma dalam agama Hindu berarti apa?",
+        "Norma kemasyarakatan dalam Hindu itu bagaimana?",
+        "Karma itu apa dalam Hindu?",
+        "Dharma dalam Hindu artinya apa?",
+        "Ajaran moral Hindu itu apa?",
+        "Karma dan dharma bedanya apa?",
+        "Hukum karma dalam Hindu bagaimana?",
+        "Apa dasar moral dalam agama Hindu?",
+        "Bagaimana konsep kehidupan dalam ajaran Hindu?"
+      ],
+      "respon": [
+        "Dalam agama Hindu, karma adalah hukum sebab-akibat dari setiap perbuatan manusia, sedangkan dharma adalah kewajiban moral dan kebenaran yang harus dijalankan. Keduanya menjadi dasar dalam menjalani kehidupan sehari-hari bersama norma kemasyarakatan."
+      ]
+    },
+    {
+      "tag": "agama_buddha_pengertian",
+      "input": [
+        "Apa itu agama Buddha?",
+        "Buddha itu agama apa?",
+        "Jelaskan tentang agama Buddha",
+        "Berapa jumlah penganut agama Buddha di dunia?",
+        "Apa sebutan bagi penganut agama Buddha?",
+        "Agama Buddha ada berapa pengikutnya?",
+        "Buddhis itu sebutan untuk siapa?",
+        "Agama Buddha terbesar keberapa di dunia?",
+        "Berapa persen penganut Buddha di dunia?",
+        "Ceritakan tentang agama Buddha",
+        "Agama Buddha ada berapa penganut?",
+        "Buddha terbesar keberapa di dunia?",
+        "Jelaskan agama Buddha dong"
+      ],
+      "respon": [
+        "Agama Buddha adalah salah satu agama besar di dunia dan merupakan agama terbesar keempat, dengan lebih dari 520 juta pengikut atau sekitar 7% populasi dunia. Penganutnya dikenal dengan sebutan Buddhis."
+      ]
+    },
+    {
+      "tag": "agama_konghucu_pengertian",
+      "input": [
+        "Apa itu agama Kong Hu Cu?",
+        "Kong Hu Cu itu agama apa?",
+        "Jelaskan tentang Kong Hu Cu",
+        "Agama Kong Hu Cu berasal dari mana?",
+        "Kong Hu Cu di Indonesia itu bagaimana?",
+        "Mengapa Kong Hu Cu disebut agama di Indonesia?",
+        "Kong Hu Cu dan Konfusianisme sama tidak?",
+        "Apa itu Konfusianisme?",
+        "Kong Hu Cu dari mana?",
+        "Agama Kong Hu Cu itu bagaimana?",
+        "Jelaskan Kong Hu Cu dong",
+        "Apa perbedaan Kong Hu Cu dan Konfusianisme?"
+      ],
+      "respon": [
+        "Agama Kong Hu Cu adalah istilah yang muncul akibat kondisi politik di Indonesia. Dalam praktiknya, Kong Hu Cu sering dikaitkan atau disamakan dengan Konfusianisme, yang sebenarnya lebih dikenal sebagai filsafat."
+      ]
+    },
+    {
+      "tag": "agama_mayoritas_jawa_tengah",
+      "input": [
+        "Agama apa yang paling banyak di dianut?",
+        "Agama mayoritas masyarakat Jawa Tengah apa?",
+        "Apa agama terbesar di Jawa Tengah?",
+        "Sebagian besar masyarakat Jawa beragama apa?",
+        "Agama yang dominan di Jawa Tengah apa?",
+        "Berapa persen masyarakat Jawa yang Islam?",
+        "Agama apa yang dianut kebanyakan orang Jawa?",
+        "Mayoritas penduduk Jawa Tengah beragama apa?",
+        "Agama terbesar di Jawa Tengah apa?",
+        "Agama apa yang paling dominan di Jawa Tengah?",
+        "Mayoritas masyarakat Jawa Tengah memeluk agama apa?",
+        "Orang Jawa Tengah mayoritas beragama apa?",
+        "Kebanyakan orang Jawa beragama apa?",
+        "Agama yang paling banyak di Jateng apa?",
+        "Penduduk Jawa Tengah beragama apa?"
+      ],
+      "respon": [
+        "Mayoritas masyarakat Jawa Tengah memeluk agama Islam. Agama ini menjadi yang paling dominan dalam kehidupan masyarakat di provinsi tersebut. Mayoritas juga masih mempertahankan tradisi kejawen."
+      ]
+    },
+    {
+      "tag": "tradisi_kejawen_abangan",
+      "input": [
+        "Apa itu tradisi kejawen?",
+        "Apa yang dimaksud abangan?",
+        "Kejawen itu kepercayaan apa?",
+        "Apa itu abangan dalam budaya Jawa?",
+        "Masyarakat Jawa yang abangan itu seperti apa?",
+        "Kejawen dan Islam bagaimana hubungannya?",
+        "Mengapa tradisi kejawen masih dipertahankan?",
+        "Abangan itu aliran kepercayaan apa?",
+        "Kejawen itu apa?",
+        "Abangan dalam Jawa itu apa?",
+        "Apa itu kejawen dalam masyarakat Jawa?",
+        "Mengapa masyarakat Jawa masih mempertahankan tradisi kejawen?",
+        "Tradisi Jawa yang kejawen itu bagaimana?",
+        "Kejawen dan Islam itu beda?",
+        "Apa yang dimaksud masyarakat abangan?"
+      ],
+      "respon": [
+        "Sebagian besar masyarakat Jawa Tengah masih mempertahankan tradisi kejawen yang dikenal dengan istilah abangan. Tradisi ini merupakan bagian dari budaya Jawa yang tetap dijalankan dalam kehidupan sehari-hari, berdampingan dengan agama yang dianut masyarakat."
+      ]
+    },
+    {
+      "tag": "rumah_adat_jawa_umum",
+      "input": [
+        "Apa saja rumah adat Jawa Tengah?",
+        "Sebutkan jenis rumah adat Jawa Tengah",
+        "Rumah tradisional Jawa Tengah ada apa saja?",
+        "Ada berapa jenis rumah adat di Jawa Tengah?",
+        "Jenis rumah adat di Jawa Tengah apa saja?",
+        "Rumah khas Jawa Tengah apa namanya?",
+        "Rumah adat Jawa Tengah ada apa saja?",
+        "Jenis rumah tradisional Jawa apa saja?",
+        "Jawa Tengah punya rumah adat apa?",
+        "Ada berapa rumah adat Jawa Tengah?",
+        "Nama rumah khas Jawa Tengah apa?",
+        "Apa saja macam rumah adat di Jawa Tengah?",
+        "Berapa jenis rumah tradisional Jawa Tengah?"
+      ],
+      "respon": [
+        "Jawa Tengah memiliki beberapa jenis rumah adat, yaitu Joglo atau Tikelan, Tajug atau Tarub, Limasan, Kampung, dan Panggang Pe. Dari berbagai jenis tersebut, rumah Joglo merupakan yang paling terkenal dan sering dijadikan simbol rumah adat Jawa Tengah."
+      ]
+    },
+    {
+      "tag": "rumah_joglo_umum",
+      "input": [
+        "Apa itu rumah Joglo?",
+        "Jelaskan tentang rumah adat Joglo",
+        "Rumah Joglo itu rumah adat dari mana?",
+        "Apa nama lain rumah Joglo?",
+        "Apakah rumah Joglo hanya ada di Jawa Tengah?",
+        "Joglo juga dimiliki daerah mana saja?",
+        "Rumah Joglo ada di provinsi apa saja?",
+        "Apakah Joglo hanya milik Jawa Tengah?",
+        "Joglo dikenal juga dengan nama apa?",
+        "Ceritakan tentang rumah Joglo Jawa Tengah",
+        "Joglo itu rumah adat apa?",
+        "Cerita tentang rumah Joglo dong",
+        "Rumah Joglo itu khas mana?",
+        "Apa nama lain Joglo?",
+        "Joglo ada di mana saja?"
+      ],
+      "respon": [
+        "Rumah Joglo atau Tikelan adalah rumah adat khas Jawa Tengah. Namun, rumah ini tidak hanya dimiliki oleh Jawa Tengah, melainkan juga menjadi rumah adat di Yogyakarta dan Jawa Timur. Joglo dikenal sebagai rumah tradisional yang memiliki nilai budaya tinggi. Rumah Joglo terdiri dari beberapa bagian."
+      ]
+    },
+    {
+      "tag": "bagian_rumah_joglo",
+      "input": [
+        "Apa saja bagian-bagian rumah Joglo?",
+        "Rumah Joglo terdiri dari bagian apa saja?",
+        "Sebutkan bagian utama rumah Joglo",
+        "Joglo memiliki berapa bagian utama?",
+        "Apa nama ruangan dalam rumah Joglo?",
+        "Bagian-bagian apa yang ada di rumah Joglo?",
+        "Ruang apa saja yang ada di rumah Joglo?",
+        "Struktur rumah Joglo terdiri dari apa?",
+        "Rumah Joglo ada bagian apa saja?",
+        "Bagian-bagian Joglo itu apa?",
+        "Joglo terdiri dari berapa ruang?",
+        "Sebutkan ruangan dalam Joglo",
+        "Apa saja struktur utama dalam rumah Joglo?",
+        "Rumah Joglo terdiri dari berapa bagian penting?",
+        "Struktur dalam rumah Joglo ada apa?"
+      ],
+      "respon": [
+        "Rumah Joglo memiliki tiga bagian utama, yaitu pendopo, pringgitan, dan omah ndalem. Ketiga bagian ini memiliki fungsi masing-masing dalam kehidupan masyarakat Jawa."
+      ]
+    },
+    {
+      "tag": "pendopo",
+      "input": [
+        "Apa itu pendopo?",
+        "Fungsi pendopo dalam rumah Jawa apa?",
+        "Pendopo digunakan untuk apa?",
+        "Apa kegunaan pendopo di rumah Joglo?",
+        "Pendopo itu ruangan yang bagaimana?",
+        "Di bagian mana letak pendopo?",
+        "Mengapa pendopo penting dalam rumah Jawa?",
+        "Ceritakan tentang pendopo rumah Joglo",
+        "Pendopo itu ruang apa?",
+        "Pendopo biasanya digunakan untuk kegiatan apa?",
+        "Apa fungsi utama pendopo dalam rumah Joglo?",
+        "Fungsi pendopo apa?",
+        "Di rumah Jawa ada pendopo untuk apa?",
+        "Pendopo dipakai untuk apa?",
+        "Apa guna pendopo dalam rumah Joglo?"
+      ],
+      "respon": [
+        "Pendopo merupakan bagian depan dan utama dari rumah Joglo yang digunakan untuk menerima tamu. Selain itu, pendopo juga sering digunakan untuk kegiatan sosial atau pertemuan."
+      ]
+    },
+    {
+      "tag": "pringgitan",
+      "input": [
+        "Apa itu pringgitan?",
+        "Pringgitan digunakan untuk apa?",
+        "Fungsi pringgitan dalam rumah Jawa apa?",
+        "Apa hubungan pringgitan dengan pertunjukan wayang?",
+        "Di mana letak pringgitan dalam rumah Joglo?",
+        "Pringgitan itu ruang untuk apa?",
+        "Apakah pertunjukan wayang selalu di pringgitan?",
+        "Ceritakan tentang pringgitan",
+        "Pringgitan itu ruang apa?",
+        "Apa fungsi pringgitan?",
+        "Pringgitan di rumah Joglo untuk apa?",
+        "Wayang ditampilkan di ruang apa?",
+        "Apakah pringgitan hanya untuk wayang?",
+        "Apa fungsi utama ruang pringgitan?",
+        "Pringgitan itu tempat apa?"
+      ],
+      "respon": [
+        "Pringgitan adalah bagian rumah Joglo yang digunakan sebagai tempat pertunjukan wayang. Namun, saat ini pertunjukan wayang tidak selalu dilakukan di ruang pringgitan, meskipun fungsi utamanya tetap berkaitan dengan pertunjukan."
+      ]
+    },
+    {
+      "tag": "omah_ndalem",
+      "input": [
+        "Apa itu omah ndalem?",
+        "Omah ndalem digunakan untuk apa?",
+        "Fungsi omah ndalem dalam rumah Jawa apa?",
+        "Omah ndalem itu ruangan apa?",
+        "Di bagian mana omah ndalem dalam rumah Joglo?",
+        "Omah ndalem ruang untuk siapa?",
+        "Arti omah ndalem dalam bahasa Jawa apa?",
+        "Ceritakan tentang omah ndalem",
+        "Omah ndalem itu apa?",
+        "Fungsi omah ndalem apa?",
+        "Omah ndalem itu ruang untuk apa?",
+        "Apa fungsi ruang dalam rumah Joglo?",
+        "Bagian paling privat di rumah Joglo apa?",
+        "Ruang privat di Joglo namanya apa?",
+        "Ndalem itu artinya apa dalam bahasa Jawa?"
+      ],
+      "respon": [
+        "Omah ndalem merupakan bagian dalam rumah Joglo yang digunakan sebagai ruang keluarga. Bagian ini bersifat lebih privat dan menjadi tempat berkumpul anggota keluarga."
+      ]
+    },
+    {
+      "tag": "rumah_tajug_tarub",
+      "input": [
+        "Apa itu rumah Tajug?",
+        "Tajug itu nama lainnya apa?",
+        "Rumah Tarub itu apa?",
+        "Tajug dan Tarub itu sama?",
+        "Apa ciri khas rumah Tajug?",
+        "Rumah Tajug dari mana?",
+        "Jelaskan tentang rumah Tajug",
+        "Tajug atau Tarub itu rumah adat apa?",
+        "Tajug itu rumah adat apa?",
+        "Tarub itu nama lain dari apa?",
+        "Rumah Tajug itu seperti apa?",
+        "Apa ciri rumah Tajug?",
+        "Apa perbedaan Tajug dan Tarub?",
+        "Tajug termasuk jenis rumah adat apa?",
+        "Tajug atau Tarub itu rumah adat dari mana?"
+      ],
+      "respon": [
+        "Tajug atau Tarub adalah salah satu jenis rumah adat Jawa Tengah. Rumah ini dikenal sebagai bagian dari ragam rumah tradisional Jawa yang memiliki bentuk atap khas."
+      ]
+    },
+    {
+      "tag": "rumah_limasan",
+      "input": [
+        "Apa itu rumah Limasan?",
+        "Rumah Limasan itu seperti apa?",
+        "Ciri khas rumah Limasan apa?",
+        "Jelaskan tentang rumah adat Limasan",
+        "Rumah Limasan dari Jawa Tengah?",
+        "Apa keunikan rumah Limasan?",
+        "Limasan itu jenis rumah adat apa?",
+        "Bagaimana bentuk atap rumah Limasan?",
+        "Limasan itu rumah adat apa?",
+        "Ciri rumah Limasan itu apa?",
+        "Atap Limasan itu bagaimana?",
+        "Apa ciri utama rumah Limasan?",
+        "Mengapa disebut rumah Limasan?",
+        "Jelaskan rumah Limasan dong"
+      ],
+      "respon": [
+        "Limasan adalah salah satu jenis rumah adat Jawa Tengah yang memiliki ciri khas atap berbentuk limasan, yaitu terdiri dari empat bidang miring. Rumah ini merupakan salah satu bentuk rumah tradisional Jawa."
+      ]
+    },
+    {
+      "tag": "rumah_kampung",
+      "input": [
+        "Apa itu rumah Kampung?",
+        "Rumah Kampung Jawa itu seperti apa?",
+        "Ciri khas rumah Kampung apa?",
+        "Jelaskan tentang rumah adat Kampung",
+        "Rumah Kampung ada di Jawa Tengah?",
+        "Apa keunikan rumah Kampung Jawa?",
+        "Rumah Kampung itu jenis rumah adat apa?",
+        "Bedanya rumah Kampung dengan Joglo apa?",
+        "Rumah Kampung itu apa?",
+        "Rumah Kampung biasanya digunakan oleh siapa?",
+        "Apakah rumah Kampung termasuk rumah adat Jawa?",
+        "Rumah Kampung Jawa seperti apa?",
+        "Apa keunikan rumah Kampung?",
+        "Rumah Kampung paling umum di mana?",
+        "Bedanya rumah Kampung sama Joglo apa?"
+      ],
+      "respon": [
+        "Rumah Kampung adalah salah satu jenis rumah adat Jawa Tengah yang paling sederhana dan umum ditemui di masyarakat. Rumah ini biasanya digunakan oleh masyarakat pada umumnya di perkampungan."
+      ]
+    },
+    {
+      "tag": "rumah_panggang_pe",
+      "input": [
+        "Apa itu rumah Panggang Pe?",
+        "Panggang Pe itu rumah adat apa?",
+        "Ciri khas Panggang Pe apa?",
+        "Jelaskan tentang rumah Panggang Pe",
+        "Rumah Panggang Pe dari Jawa Tengah?",
+        "Apa keunikan rumah Panggang Pe?",
+        "Panggang Pe itu jenis rumah bagaimana?",
+        "Bedanya Panggang Pe dengan Joglo apa?",
+        "Panggang Pe itu rumah apa?",
+        "Ciri rumah Panggang Pe apa?",
+        "Panggang Pe atapnya bagaimana?",
+        "Rumah Panggang Pe itu seperti apa?",
+        "Jelaskan Panggang Pe dong",
+        "Apa bentuk sederhana rumah Panggang Pe?",
+        "Mengapa Panggang Pe disebut rumah sederhana?"
+      ],
+      "respon": [
+        "Rumah Panggang Pe adalah salah satu rumah adat Jawa Tengah dan Yogyakarta yang memiliki bentuk paling sederhana. Ciri khasnya adalah atap miring satu sisi, menyerupai bentuk seperti dipanggang, serta ditopang oleh sekitar 4–6 tiang penyangga. Secara historis, rumah ini digunakan untuk menjemur hasil pertanian (pe berarti dijemur), serta difungsikan sebagai tempat tinggal sederhana, warung, atau gudang."
+      ]
+    },
+    {
+      "tag": "pakaian_adat_jawa_umum",
+      "input": [
+        "Apa saja pakaian adat Jawa Tengah?",
+        "Sebutkan pakaian tradisional Jawa Tengah",
+        "Ada berapa jenis pakaian adat Jawa Tengah?",
+        "Nama-nama pakaian adat Jawa Tengah apa?",
+        "Baju adat khas Jawa Tengah apa saja?",
+        "Apa saja jenis busana adat di Jawa Tengah?",
+        "Pakaian khas masyarakat Jawa Tengah itu apa saja?",
+        "Pakaian tradisional Jawa Tengah apa saja?",
+        "Jenis baju adat Jawa Tengah ada apa saja?",
+        "Pakaian adat Jawa apa saja?",
+        "Baju tradisional Jawa Tengah apa?",
+        "Jawa Tengah punya pakaian adat apa?",
+        "Ada berapa pakaian adat Jawa Tengah?",
+        "Sebutkan busana khas Jawa Tengah"
+      ],
+      "respon": [
+        "Jawa Tengah memiliki 6 jenis pakaian adat, yaitu Jawi Jangkep, Kebaya, Kanigaran, Batik, Surjan, dan Basahan. Pakaian-pakaian ini mencerminkan budaya Jawa yang kaya dan biasanya digunakan dalam acara adat maupun kegiatan resmi. Pakaian adat bereda untuk pria dan wanita."
+      ]
+    },
+    {
+      "tag": "pakaian_pria_jawa",
+      "input": [
+        "Pakaian adat pria Jawa Tengah apa?",
+        "Baju adat laki-laki Jawa Tengah disebut apa?",
+        "Pakaian tradisional pria Jawa itu apa?",
+        "Laki-laki Jawa memakai pakaian adat apa?",
+        "Apa nama baju adat pria Jawa?",
+        "Pakaian formal adat Jawa untuk pria apa?",
+        "Pria Jawa memakai baju adat apa?",
+        "Pakaian upacara adat pria Jawa apa?",
+        "Baju laki-laki Jawa itu apa?",
+        "Pakaian formal pria Jawa namanya apa?",
+        "Laki-laki Jawa pakai apa dalam upacara?",
+        "Pakaian adat laki-laki Jawa itu apa?",
+        "Apa saja kelengkapan pakaian adat pria Jawa Tengah?",
+        "Bagaimana bentuk pakaian adat laki-laki Jawa Tengah?"
+      ],
+      "respon": [
+        "Kebudayaan Jawa Tengah untuk pakaian adat laki-laki disebut dengan beskap. Sebagai pelengkap di bagian kepala biasanya terdapat blangkon atau kuluk. Sementara untuk bagian bawahnya menggunakan jarik yang diikat dengan menggunakan stagen. Di bagian belakang juga akan diselipkan senjata tradisional yang bernama keris."
+      ]
+    },
+    {
+      "tag": "pakaian_wanita_jawa",
+      "input": [
+        "Apa saja kelengkapan pakaian adat wanita Jawa Tengah?",
+        "Bagaimana penampilan pakaian adat perempuan Jawa Tengah?",
+        "Pakaian adat wanita Jawa Tengah apa?",
+        "Baju adat perempuan Jawa disebut apa?",
+        "Pakaian tradisional wanita Jawa itu apa?",
+        "Perempuan Jawa memakai pakaian adat apa?",
+        "Apa nama baju adat wanita Jawa?",
+        "Wanita Jawa pakai pakaian adat apa?",
+        "Pakaian formal adat Jawa untuk perempuan apa?",
+        "Kelengkapan pakaian adat wanita Jawa apa saja?",
+        "Perempuan Jawa memakai baju adat apa?",
+        "Baju wanita Jawa itu apa?",
+        "Pakaian formal wanita Jawa namanya apa?",
+        "Wanita Jawa pakai apa dalam upacara?",
+        "Pakaian adat perempuan Jawa Tengah itu apa?"
+      ],
+      "respon": [
+        "Untuk perempuan Jawa Tengah menggunakan kebaya. Bagian bawah menggunakan jarik yang diikat dengan menggunakan stagen. Umumnya, rambut juga akan ditata dengan cara disanggul dan dihiasi dengan aksesoris."
+      ]
+    },
+    {
+      "tag": "beskap",
+      "input": [
+        "Apa itu beskap?",
+        "Beskap itu baju adat apa?",
+        "Beskap dipakai oleh siapa?",
+        "Jelaskan tentang beskap",
+        "Beskap itu pakaian untuk pria atau wanita?",
+        "Ceritakan tentang beskap Jawa",
+        "Beskap biasanya dipakai kapan?",
+        "Beskap termasuk pakaian adat daerah mana?",
+        "Apa fungsi beskap dalam pakaian adat Jawa?",
+        "Apa ciri khas beskap?",
+        "Beskap itu baju apa?",
+        "Siapa yang memakai beskap?",
+        "Beskap itu pakaian pria atau wanita?",
+        "Apa itu beskap dalam budaya Jawa?",
+        "Kapan beskap dipakai?"
+      ],
+      "respon": [
+        "Beskap adalah pakaian adat laki-laki Jawa Tengah. Beskap merupakan baju atasan resmi adat Jawa untuk pria yang biasanya dipakai dalam upacara-upacara adat."
+      ]
+    },
+    {
+      "tag": "blangkon_kuluk",
+      "input": [
+        "Apa itu blangkon?",
+        "Apa itu kuluk?",
+        "Blangkon dipakai untuk apa?",
+        "Apa fungsi blangkon dalam pakaian adat Jawa?",
+        "Blangkon dan kuluk itu sama?",
+        "Blangkon itu penutup kepala apa?",
+        "Kapan blangkon dikenakan?",
+        "Mengapa pria Jawa memakai blangkon?",
+        "Blangkon itu apa?",
+        "Kuluk itu penutup kepala apa?",
+        "Fungsi blangkon apa?",
+        "Pria Jawa memakai apa di kepala?",
+        "Blangkon dikenakan saat apa?",
+        "Blangkon dipakai oleh siapa?",
+        "Blangkon digunakan saat apa?"
+      ],
+      "respon": [
+        "Blangkon atau kuluk adalah penutup kepala khas yang dikenakan sebagai pelengkap pakaian adat laki-laki Jawa Tengah, terutama saat memakai beskap atau Jawi Jangkep."
+      ]
+    },
+    {
+      "tag": "jarik",
+      "input": [
+        "Apa itu jarik?",
+        "Jarik itu kain apa?",
+        "Jarik dipakai oleh siapa saja?",
+        "Apa fungsi jarik dalam pakaian Jawa?",
+        "Jarik itu dipakai sebagai apa?",
+        "Bagaimana cara memakai jarik?",
+        "Jarik digunakan pada bagian tubuh mana?",
+        "Ceritakan tentang jarik Jawa",
+        "Jarik dipakai sebagai apa?",
+        "Fungsi jarik dalam pakaian Jawa apa?",
+        "Jarik itu dipakai di bagian mana?",
+        "Siapa yang memakai jarik?",
+        "Jarik termasuk bagian pakaian adat apa?",
+        "Apakah jarik dipakai pria dan wanita?"
+      ],
+      "respon": [
+        "Jarik adalah kain panjang bermotif batik yang dikenakan sebagai bawahan dalam pakaian adat Jawa. Jarik dipakai oleh pria maupun wanita dan diikat menggunakan stagen di bagian pinggang."
+      ]
+    },
+    {
+      "tag": "stagen",
+      "input": [
+        "Apa itu stagen?",
+        "Stagen digunakan untuk apa?",
+        "Fungsi stagen dalam pakaian Jawa apa?",
+        "Stagen itu aksesori apa?",
+        "Bagaimana cara menggunakan stagen?",
+        "Stagen itu ikat pinggang apa?",
+        "Ceritakan tentang stagen dalam pakaian Jawa",
+        "Stagen dikenakan di bagian mana?",
+        "Stagen itu apa?",
+        "Stagen dipakai bersama apa?",
+        "Apa kegunaan stagen dalam pakaian adat?",
+        "Stagen itu ikat apa?",
+        "Stagen dipakai di mana?",
+        "Mengapa pakai stagen dalam pakaian adat Jawa?"
+      ],
+      "respon": [
+        "Stagen adalah kain panjang yang digunakan untuk mengikat jarik di bagian pinggang agar kencang dan rapi, dipakai oleh pria maupun wanita dalam pakaian adat Jawa."
+      ]
+    },
+    {
+      "tag": "keris_pakaian_adat",
+      "input": [
+        "Apa peran keris dalam pakaian adat Jawa?",
+        "Keris dikenakan di mana dalam pakaian Jawa?",
+        "Mengapa pria Jawa memakai keris?",
+        "Keris diselipkan di bagian mana?",
+        "Keris dalam pakaian adat Jawa untuk apa?",
+        "Fungsi keris dalam busana adat Jawa apa?",
+        "Keris sebagai pelengkap pakaian Jawa bagaimana?",
+        "Di mana keris diletakkan saat memakai beskap?",
+        "Keris dipakai di mana dalam busana Jawa?",
+        "Fungsi keris dalam pakaian adat apa?",
+        "Keris diselipkan di mana saat upacara?",
+        "Mengapa keris jadi pelengkap baju adat?",
+        "Keris termasuk pelengkap pakaian adat apa?",
+        "Apa makna keris dalam pakaian adat Jawa?",
+        "Posisi keris dalam pakaian pria Jawa di mana?"
+      ],
+      "respon": [
+        "Dalam pakaian adat pria Jawa Tengah, keris diselipkan di bagian belakang pinggang sebagai pelengkap. Keris merupakan senjata tradisional yang menjadi bagian penting dari kelengkapan busana adat Jawa."
+      ]
+    },
+    {
+      "tag": "sanggul_jawa",
+      "input": [
+        "Apa itu sanggul?",
+        "Mengapa wanita Jawa menyangul rambut?",
+        "Sanggul itu gaya rambut apa?",
+        "Cara menata rambut adat Jawa itu bagaimana?",
+        "Rambut perempuan Jawa ditata seperti apa?",
+        "Apa aksesoris rambut dalam pakaian adat Jawa?",
+        "Sanggul digunakan oleh siapa?",
+        "Kapan rambut disanggul dalam budaya Jawa?",
+        "Ceritakan tentang sanggul dalam budaya Jawa",
+        "Kenapa rambut disanggul dalam adat Jawa?",
+        "Wanita Jawa menata rambut bagaimana?",
+        "Rambut disanggul itu artinya apa?",
+        "Apa itu sanggul dalam budaya Jawa?",
+        "Kenapa rambut wanita Jawa disanggul?"
+      ],
+      "respon": [
+        "Dalam tradisi Jawa, rambut perempuan yang mengenakan pakaian adat ditata dengan cara disanggul dan dihiasi dengan aksesoris, mencerminkan keanggunan dan kecantikan wanita Jawa."
+      ]
+    },
+    {
+      "tag": "pakaian_jawi_jangkep",
+      "input": [
+        "Apa itu Jawi Jangkep?",
+        "Jawi Jangkep itu pakaian apa?",
+        "Jawi Jangkep dipakai untuk apa?",
+        "Apa ciri khas Jawi Jangkep?",
+        "Jelaskan pakaian Jawi Jangkep",
+        "Jawi Jangkep itu busana adat apa?",
+        "Kapan Jawi Jangkep dikenakan?",
+        "Apa arti Jawi Jangkep?",
+        "Jawi Jangkep itu apa?",
+        "Jawi Jangkep terdiri dari apa saja?",
+        "Apakah Jawi Jangkep termasuk pakaian resmi?",
+        "Kapan Jawi Jangkep dipakai?",
+        "Jawi Jangkep itu busana apa?"
+      ],
+      "respon": [
+        "Jawi Jangkep adalah pakaian adat lengkap khas Jawa Tengah yang biasanya dipakai dalam upacara-upacara adat dan acara resmi tradisional Jawa. Ini merupakan busana formal lengkap adat Jawa."
+      ]
+    },
+    {
+      "tag": "pakaian_kebaya",
+      "input": [
+        "Apa itu kebaya?",
+        "Kebaya itu baju apa?",
+        "Kebaya dipakai oleh siapa?",
+        "Apa ciri khas kebaya Jawa?",
+        "Jelaskan pakaian kebaya",
+        "Kapan kebaya dikenakan?",
+        "Kebaya itu baju untuk pria atau wanita?",
+        "Kebaya berasal dari mana?",
+        "Kapan kebaya dipakai?",
+        "Kebaya dipadukan dengan pakaian apa?",
+        "Kebaya digunakan dalam acara apa?",
+        "Kebaya itu untuk pria atau wanita?",
+        "Kebaya itu pakaian daerah mana?"
+      ],
+      "respon": [
+        "Kebaya adalah pakaian adat perempuan Jawa Tengah. Kebaya merupakan baju atasan yang dipadukan dengan jarik sebagai bawahan yang diikat stagen, serta rambut yang ditata disanggul dan dihiasi aksesoris."
+      ]
+    },
+    {
+      "tag": "pakaian_kanigaran",
+      "input": [
+        "Apa itu pakaian Kanigaran?",
+        "Kanigaran itu baju adat apa?",
+        "Kanigaran dipakai untuk apa?",
+        "Apa ciri khas Kanigaran?",
+        "Jelaskan pakaian Kanigaran",
+        "Kapan Kanigaran dikenakan?",
+        "Kanigaran itu busana adat apa?",
+        "Apa keunikan pakaian Kanigaran?",
+        "Ciri khas Kanigaran apa?",
+        "Jelaskan Kanigaran dong",
+        "Kanigaran termasuk pakaian adat daerah mana?",
+        "Kanigaran digunakan dalam acara apa?"
+      ],
+      "respon": [
+        "Kanigaran adalah salah satu jenis pakaian adat Jawa Tengah yang termasuk dalam busana tradisional Jawa. Pakaian ini menjadi bagian dari ragam pakaian adat yang digunakan dalam budaya Jawa."
+      ]
+    },
+    {
+      "tag": "pakaian_batik",
+      "input": [
+        "Apa itu batik?",
+        "Batik itu kain apa?",
+        "Batik berasal dari mana?",
+        "Apa keistimewaan batik Jawa?",
+        "Jelaskan tentang batik",
+        "Kapan batik dikenakan?",
+        "Batik itu pakaian atau kain?",
+        "Apa yang membuat batik khas?",
+        "Apa keistimewaan batik?",
+        "Batik digunakan sebagai bagian pakaian apa?",
+        "Apakah batik termasuk pakaian adat Jawa Tengah?",
+        "Batik itu warisan budaya apa?"
+      ],
+      "respon": [
+        "Batik adalah kain bermotif khas yang digunakan dalam pakaian adat Jawa Tengah, terutama sebagai bahan untuk jarik atau bawahan. Batik menjadi bagian penting dalam busana tradisional Jawa. Batik merupakan salah satu pakaian adat khas Jawa Tengah yang sudah diakui sebagai warisan budaya dunia."
+      ]
+    },
+    {
+      "tag": "pakaian_surjan",
+      "input": [
+        "Apa itu Surjan?",
+        "Surjan itu baju apa?",
+        "Surjan dipakai oleh siapa?",
+        "Apa ciri khas Surjan?",
+        "Surjan digunakan oleh siapa?",
+        "Surjan termasuk pakaian adat apa?",
+        "Jelaskan pakaian Surjan",
+        "Kapan Surjan dikenakan?",
+        "Surjan itu busana adat apa?",
+        "Apa keunikan pakaian Surjan?",
+        "Kapan Surjan dipakai?",
+        "Surjan itu untuk pria atau wanita?"
+      ],
+      "respon": [
+        "Surjan adalah salah satu jenis pakaian adat laki-laki Jawa Tengah yang berupa baju atasan. Surjan termasuk dalam ragam busana tradisional yang digunakan dalam budaya Jawa."
+      ]
+    },
+    {
+      "tag": "pakaian_basahan",
+      "input": [
+        "Apa itu Basahan?",
+        "Basahan itu baju apa?",
+        "Basahan dipakai untuk apa?",
+        "Apa ciri khas Basahan?",
+        "Jelaskan pakaian Basahan",
+        "Kapan Basahan dikenakan?",
+        "Basahan itu busana adat apa?",
+        "Apa keunikan pakaian Basahan?",
+        "Basahan itu baju adat apa?",
+        "Apa itu pakaian Basahan?",
+        "Ciri khas Basahan apa?",
+        "Basahan digunakan dalam acara apa?",
+        "Basahan termasuk pakaian adat Jawa Tengah?",
+        "Jelaskan Basahan dong"
+      ],
+      "respon": [
+        "Basahan adalah salah satu jenis pakaian adat Jawa Tengah yang digunakan dalam kegiatan atau upacara adat tertentu. Basahan merupakan bagian dari ragam busana tradisional Jawa."
+      ]
+    },
+    {
+      "tag": "tari_jawa_umum",
+      "input": [
+        "Apa saja tari tradisional Jawa Tengah?",
+        "Sebutkan tari daerah Jawa Tengah",
+        "Ada berapa tari tradisional di Jawa Tengah?",
+        "Nama-nama tari tradisional Jawa Tengah apa?",
+        "Tarian khas Jawa Tengah apa saja?",
+        "Macam-macam tari Jawa Tengah apa?",
+        "Tari tradisional apa saja yang ada di Jawa Tengah?",
+        "Sebutkan tarian adat Jawa Tengah",
+        "Tari Jawa Tengah ada apa saja?",
+        "Sebutkan tarian khas Jawa Tengah",
+        "Jawa Tengah punya tari apa?",
+        "Ada berapa tari tradisional Jateng?",
+        "Tarian adat Jawa Tengah apa saja?",
+        "Contoh tari Jawa Tengah apa saja?",
+        "Apa saja tari terkenal dari Jawa Tengah?"
+      ],
+      "respon": [
+        "Jawa Tengah memiliki beberapa tari tradisional, di antaranya Tari Srikandi, Tari Serimpi, dan Tari Bedhaya Ketawang. Tari Srikandi bertema kepahlawanan, Tari Serimpi merupakan tari klasik dari lingkungan istana, dan Tari Bedhaya Ketawang adalah tarian sakral yang berkaitan dengan upacara keraton."
+      ]
+    },
+    {
+      "tag": "tari_srikandi_pengertian",
+      "input": [
+        "Apa itu Tari Srikandi?",
+        "Tari Srikandi itu tari apa?",
+        "Jelaskan tentang Tari Srikandi",
+        "Tari Srikandi menceritakan apa?",
+        "Tari Srikandi berasal dari mana?",
+        "Tari Srikandi dilakukan oleh siapa?",
+        "Apa tema Tari Srikandi?",
+        "Ceritakan tentang Tari Srikandi",
+        "Tari Srikandi itu tarian apa?",
+        "Tari Srikandi menceritakan kisah apa?",
+        "Srikandi itu tari dari mana?",
+        "Apa makna Tari Srikandi?",
+        "Tari Srikandi menggambarkan apa?"
+      ],
+      "respon": [
+        "Tari Srikandi adalah tarian yang menggambarkan perang antara dua tokoh wanita yaitu Dewi Srikandhi dan Dewi Mustakaweni. Tarian ini bertema heroik atau kepahlawanan dan biasanya dilakukan secara berpasangan oleh penari wanita."
+      ]
+    },
+    {
+      "tag": "tokoh_tari_srikandi",
+      "input": [
+        "Siapa saja tokoh dalam Tari Srikandi?",
+        "Dewi Srikandhi itu siapa?",
+        "Dewi Mustakaweni itu siapa?",
+        "Tari Srikandi menampilkan tokoh apa saja?",
+        "Perang dalam Tari Srikandi antara siapa?",
+        "Tari Srikandi menggambarkan pertempuran siapa?",
+        "Siapa Dewi Srikandhi dalam pewayangan?",
+        "Tokoh wanita dalam Tari Srikandi namanya apa?",
+        "Siapa yang digambarkan dalam Tari Srikandi?",
+        "Tari Srikandi menampilkan tokoh apa?",
+        "Siapa Dewi Mustakaweni?",
+        "Tokoh utama Tari Srikandi siapa saja?",
+        "Cerita Tari Srikandi tentang siapa?"
+      ],
+      "respon": [
+        "Tari Srikandi menampilkan dua tokoh wanita yaitu Dewi Srikandhi dan Dewi Mustakaweni. Keduanya merupakan tokoh pewayangan yang digambarkan sedang berperang dalam tarian bertema kepahlawanan."
+      ]
+    },
+    {
+      "tag": "tari_srikandi_cara",
+      "input": [
+        "Tari Srikandi dilakukan berpasangan?",
+        "Berapa penari dalam Tari Srikandi?",
+        "Tari Srikandi ditarikan oleh berapa orang?",
+        "Cara menarikan Tari Srikandi bagaimana?",
+        "Tari Srikandi penarinya pria atau wanita?",
+        "Penari Tari Srikandi harus siapa?",
+        "Tari Srikandi itu tari tunggal atau berpasangan?",
+        "Siapa yang boleh menarikan Tari Srikandi?",
+        "Tari Srikandi ditarikan berapa orang?",
+        "Siapa yang boleh menari Srikandi?",
+        "Tari Srikandi itu berpasangan atau solo?",
+        "Penari Tari Srikandi pria atau wanita?",
+        "Cara menarikan Srikandi bagaimana?"
+      ],
+      "respon": [
+         "Tari Srikandi dilakukan secara berpasangan oleh penari wanita, yang menggambarkan adegan peperangan antara Dewi Srikandhi dan Dewi Mustakaweni dengan gerakan yang menunjukkan semangat kepahlawanan."
+      ]
+    },
+    {
+      "tag": "tari_serimpi_pengertian",
+      "input": [
+        "Apa itu Tari Serimpi?",
+        "Tari Serimpi itu tari apa?",
+        "Jelaskan tentang Tari Serimpi",
+        "Tari Serimpi berasal dari mana?",
+        "Tari Serimpi itu tari klasik?",
+        "Apa ciri khas Tari Serimpi?",
+        "Tari Serimpi itu tari istana?",
+        "Ceritakan tentang Tari Serimpi",
+        "Serimpi itu tari apa?",
+        "Tari Serimpi itu dari mana?",
+        "Apa ciri khas Serimpi?",
+        "Serimpi itu tari istana?",
+        "Tari Serimpi termasuk jenis apa?",
+        "Apa keunikan Tari Serimpi?"
+      ],
+      "respon": [
+        "Tari Serimpi merupakan tari klasik yang berasal dari Jawa Tengah. Tari klasik adalah tarian yang telah mencapai tingkat keindahan tinggi, sudah ada sejak zaman masyarakat feodal, dan berkembang di lingkungan istana. Tari Serimpi juga dikenal memiliki gerakan yang lembut."
+      ]
+    },
+    {
+      "tag": "tari_klasik_pengertian",
+      "input": [
+        "Apa itu tari klasik?",
+        "Tari klasik Jawa itu apa?",
+        "Pengertian tari klasik apa?",
+        "Apa yang dimaksud tari klasik Jawa?",
+        "Tari klasik berbeda dengan tari modern bagaimana?",
+        "Apa ciri tari klasik?",
+        "Kapan tari klasik Jawa lahir?",
+        "Tari klasik Jawa lahir di lingkungan mana?",
+        "Tari klasik itu apa?",
+        "Apa itu tari klasik Jawa?",
+        "Tari klasik berbeda dengan modern bagaimana?",
+        "Ciri tari klasik apa?",
+        "Tari klasik Jawa lahir di mana?",
+        "Apa contoh tari klasik Jawa?",
+        "Tari klasik berkembang di mana?"
+      ],
+      "respon": [
+        "Tari klasik adalah tarian yang telah mencapai kristalisasi keindahan yang tinggi, sudah ada sejak zaman masyarakat feodal, dan lahir serta berkembang di lingkungan istana atau keraton."
+      ]
+    },
+    {
+      "tag": "serimpi_mirip_pakarena",
+      "input": [
+        "Tari Serimpi mirip dengan tari apa?",
+        "Apa persamaan Tari Serimpi dan Tari Pakarena?",
+        "Tari Pakarena itu dari mana?",
+        "Apa itu Tari Pakarena?",
+        "Mengapa Serimpi dikatakan mirip Pakarena?",
+        "Tari Pakarena berasal dari daerah mana?",
+        "Persamaan Serimpi Jawa dan Pakarena Makassar apa?",
+        "Tari dari Makassar yang mirip Serimpi apa?",
+        "Serimpi mirip tari apa?",
+        "Apa kesamaan gerakan Serimpi dan Pakarena?",
+        "Serimpi dibandingkan dengan tari apa?",
+        "Apa persamaan Serimpi dan Pakarena?",
+        "Mengapa Serimpi mirip Pakarena?"
+      ],
+      "respon": [
+        "Tari Serimpi memiliki kemiripan dengan Tari Pakarena dari Makassar, terutama pada kelembutan gerakan para penarinya."
+      ]
+    },
+    {
+      "tag": "tari_bedhaya_ketawang_pengertian",
+      "input": [
+        "Apa itu Tari Bedhaya Ketawang?",
+        "Bedhaya Ketawang itu tari apa?",
+        "Jelaskan Tari Bedhaya Ketawang",
+        "Tari Bedhaya Ketawang berasal dari mana?",
+        "Apa keistimewaan Tari Bedhaya Ketawang?",
+        "Tari Bedhaya Ketawang itu sakral?",
+        "Ceritakan tentang Tari Bedhaya Ketawang",
+        "Bedhaya Ketawang itu tari sakral apa?",
+        "Bedhaya Ketawang termasuk tari apa?",
+        "Apa fungsi Tari Bedhaya Ketawang?",
+        "Ceritakan tentang Bedhaya Ketawang",
+        "Bedhaya Ketawang itu sakral?",
+        "Tari keraton Jawa yang terkenal apa?"
+      ],
+      "respon": [
+        "Bedhaya Ketawang adalah tarian sakral yang rutin dibawakan di istana sultan Jawa, yaitu Keraton Yogyakarta dan Keraton Solo. Tarian ini disebut juga sebagai tarian langit dan merupakan bagian dari upacara yang bertujuan sebagai pemujaan dan persembahan kepada Sang Pencipta."
+      ]
+    },
+    {
+      "tag": "bedhaya_tarian_langit",
+      "input": [
+        "Mengapa Bedhaya Ketawang disebut tarian langit?",
+        "Apa arti tarian langit pada Bedhaya Ketawang?",
+        "Bedhaya Ketawang punya nama lain apa?",
+        "Kenapa Bedhaya Ketawang dinamakan tarian langit?",
+        "Tarian langit itu nama lain dari apa?",
+        "Apa makna tarian langit dalam Bedhaya Ketawang?",
+        "Bedhaya Ketawang disebut juga apa?",
+        "Apa simbolisme langit dalam Bedhaya Ketawang?",
+        "Kenapa Bedhaya disebut tarian langit?",
+        "Makna tarian langit dalam Bedhaya apa?",
+        "Apa simbolisme langit di Bedhaya?",
+        "Apa arti nama Bedhaya Ketawang?",
+        "Kenapa disebut tarian sakral?"
+      ],
+      "respon": [
+        "Bedhaya Ketawang disebut sebagai tarian langit karena tarian ini merupakan bagian dari upacara sakral yang bertujuan sebagai pemujaan dan persembahan kepada Sang Pencipta, sehingga memiliki makna spiritual yang tinggi."
+      ]
+    },
+    {
+      "tag": "bedhaya_keraton",
+      "input": [
+        "Di keraton mana Bedhaya Ketawang dibawakan?",
+        "Bedhaya Ketawang ditampilkan di mana?",
+        "Keraton apa yang menampilkan Bedhaya Ketawang?",
+        "Bedhaya Ketawang itu tari keraton mana?",
+        "Apakah Bedhaya Ketawang hanya di satu keraton?",
+        "Keraton Yogyakarta menampilkan tari apa?",
+        "Keraton Solo punya tari sakral apa?",
+        "Tari sakral di Keraton Jawa apa namanya?",
+        "Keraton mana yang punya Bedhaya?",
+        "Bedhaya Ketawang berasal dari keraton mana?",
+        "Tarian sakral Jawa ada di mana?",
+        "Bedhaya Ketawang itu tari keraton apa?",
+        "Di keraton Jawa mana Bedhaya dibawakan?",
+        "Apakah Bedhaya hanya di satu keraton?"
+      ],
+      "respon": [
+        "Bedhaya Ketawang merupakan tarian sakral yang dibawakan di istana sultan Jawa, yaitu di Keraton Yogyakarta dan Keraton Solo. Disebut juga tarian langit."
+      ]
+    },
+    {
+      "tag": "peninggalan_jawa_tengah_umum",
+      "input": [
+        "Apa saja peninggalan kebudayaan Jawa Tengah?",
+        "Sebutkan peninggalan budaya Jawa Tengah",
+        "Contoh peninggalan Jawa Tengah apa saja?",
+        "Ada apa saja peninggalan budaya di Jawa Tengah?",
+        "Peninggalan tradisional Jawa Tengah apa saja?",
+        "Warisan budaya Jawa Tengah apa saja?",
+        "Kebudayaan peninggalan Jawa Tengah ada apa saja?",
+        "Sebutkan contoh warisan budaya Jawa Tengah",
+        "Apa saja hasil kebudayaan Jawa Tengah?",
+        "Peninggalan sejarah budaya Jawa Tengah apa saja?",
+        "Jawa Tengah punya peninggalan budaya apa?"
+      ],
+      "respon": [
+        "Peninggalan kebudayaan Jawa Tengah yang masih ada hingga kini antara lain kesenian wayang, keris, ukiran Jepara, kirab Apem Sewu, dan tedhak siten."
+      ]
+    },
+    {
+      "tag": "wayang_pengertian",
+      "input": [
+        "Apa itu wayang?",
+        "Wayang itu kesenian apa?",
+        "Jelaskan tentang kesenian wayang",
+        "Wayang berasal dari mana?",
+        "Apa sejarah wayang Jawa?",
+        "Wayang itu pertunjukan apa?",
+        "Ceritakan tentang wayang",
+        "Wayang itu seni budaya apa?",
+        "Apa itu seni wayang?",
+        "Wayang itu pertunjukan apa sih?",
+        "Wayang termasuk budaya apa?",
+        "Apa fungsi wayang dalam budaya Jawa?"
+      ],
+      "respon": [
+        "Kesenian wayang adalah pertunjukan seni tradisional Jawa yang sudah ada sejak sebelum masuknya kebudayaan Hindu ke Indonesia dan kemudian berkembang pada zaman Hindu Jawa. Wayang juga merupakan sisa-sisa acara keagamaan masyarakat Jawa yang berasal dari kepercayaan animisme dan dinamisme. Menurut kitab centunu yang berisi tentang asal muasal wayang purwa disebutkan bahwa kesenian satu ini diciptakan oleh Raja Jayabaya dari kerajaan Kediri."
+      ]
+    },
+    {
+      "tag": "wayang_sebelum_hindu",
+      "input": [
+        "Wayang sudah ada sebelum Hindu masuk?",
+        "Kapan wayang pertama kali ada?",
+        "Wayang muncul sebelum atau sesudah Hindu?",
+        "Wayang asli itu seperti apa sebelum Hindu?",
+        "Wayang berkembang di zaman apa?",
+        "Apakah wayang pengaruh Hindu?",
+        "Wayang zaman Hindu Jawa itu bagaimana?",
+        "Asal usul wayang sebelum Hindu bagaimana?",
+        "Wayang sudah ada sebelum Hindu?",
+        "Kapan wayang pertama kali muncul?",
+        "Wayang itu pengaruh Hindu atau bukan?",
+        "Wayang muncul di zaman apa?",
+        "Wayang berasal dari masa apa?",
+        "Sejarah awal wayang sebelum Hindu bagaimana?"
+      ],
+      "respon": [
+        "Wayang pada bentuk aslinya sudah ada sebelum kebudayaan Hindu masuk ke Indonesia, kemudian berkembang lebih pesat pada zaman Hindu Jawa."
+      ]
+    },
+    {
+      "tag": "wayang_animisme_dinamisme",
+      "input": [
+        "Apa hubungan wayang dengan animisme?",
+        "Wayang sebagai sisa kepercayaan apa?",
+        "Wayang dan dinamisme itu bagaimana?",
+        "Kepercayaan apa yang mendasari wayang?",
+        "Mengapa wayang berhubungan dengan animisme?",
+        "Wayang itu sisa ritual kepercayaan apa?",
+        "Animisme dan dinamisme dalam wayang itu bagaimana?",
+        "Apa latar belakang kepercayaan wayang Jawa?",
+        "Wayang berhubungan dengan animisme?",
+        "Animisme dalam wayang itu bagaimana?",
+        "Wayang itu ritual keagamaan apa?",
+        "Wayang berasal dari kepercayaan apa?",
+        "Wayang berkaitan dengan kepercayaan lama apa?"
+      ],
+      "respon": [
+        "Pertunjukan wayang merupakan sisa-sisa acara keagamaan masyarakat Jawa yang berasal dari kepercayaan animisme dan dinamisme sebelum masuknya agama Hindu."
+      ]
+    },
+    {
+      "tag": "kitab_centunu",
+      "input": [
+        "Apa itu kitab Centunu?",
+        "Kitab Centunu berisi tentang apa?",
+        "Di mana asal usul wayang dijelaskan?",
+        "Centunu itu kitab tentang apa?",
+        "Mengapa kitab Centunu penting?",
+        "Sumber sejarah wayang purwa apa?",
+        "Kitab apa yang menceritakan asal usul wayang?",
+        "Centunu itu kitab kuno apa?",
+        "Centunu itu kitab apa?",
+        "Kitab Centunu berisi apa?",
+        "Sejarah wayang ada di kitab apa?",
+        "Kitab yang membahas wayang apa?",
+        "Centunu menjelaskan apa?"
+      ],
+      "respon": [
+        "Kitab Centunu adalah kitab yang berisi tentang asal muasal wayang purwa, yang menyebutkan bahwa kesenian wayang diciptakan oleh Raja Jayabaya dari Kerajaan Kediri."
+      ]
+    },
+    {
+      "tag": "raja_jayabaya",
+      "input": [
+        "Siapa Raja Jayabaya?",
+        "Raja Jayabaya berasal dari kerajaan mana?",
+        "Apa yang diciptakan Raja Jayabaya?",
+        "Jayabaya itu raja dari mana?",
+        "Kapan Raja Jayabaya hidup?",
+        "Ceritakan tentang Raja Jayabaya",
+        "Kerajaan Kediri itu dipimpin siapa?",
+        "Siapa pencipta wayang purwa?",
+        "Jayabaya itu siapa?",
+        "Raja Jayabaya dari kerajaan mana?",
+        "Siapa pencipta wayang?",
+        "Apa peran Jayabaya dalam wayang?",
+        "Jayabaya terkenal karena apa?"
+      ],
+      "respon": [
+        "Raja Jayabaya adalah raja dari Kerajaan Kediri yang menciptakan wayang purwa. Kira-kira di abad ke-10, Raja Jayabaya berusaha menciptakan gambaran melalui roh leluhur dan diterapkan pada daun lontar."
+      ]
+    },
+    {
+      "tag": "jayabaya_dewa_wisnu",
+      "input": [
+        "Jayabaya menyembah dewa apa?",
+        "Apa hubungan Jayabaya dengan Dewa Wisnu?",
+        "Mengapa Jayabaya dianggap titisan Batara Wisnu?",
+        "Dewa Wisnu dalam kepercayaan Jayabaya bagaimana?",
+        "Jayabaya dianggap titisan siapa?",
+        "Apa kepercayaan Raja Jayabaya?",
+        "Mengapa masyarakat Kediri menganggap Jayabaya titisan Wisnu?",
+        "Jayabaya penyembah Dewa apa?",
+        "Hubungan Jayabaya dengan Dewa Wisnu apa?",
+        "Kenapa Jayabaya dianggap titisan Wisnu?",
+        "Kepercayaan Raja Jayabaya apa?",
+        "Jayabaya percaya pada dewa siapa?",
+        "Apa keyakinan Jayabaya?"
+      ],
+      "respon": [
+        "Raja Jayabaya merupakan penyembah Dewa Wisnu yang setia, bahkan masyarakatnya menganggap beliau sebagai titisan Batara Wisnu."
+      ]
+    },
+    {
+      "tag": "wayang_daun_lontar",
+      "input": [
+        "Wayang pertama dibuat dari apa?",
+        "Daun lontar itu apa hubungannya dengan wayang?",
+        "Wayang awal mula digambar di mana?",
+        "Jayabaya menggambar wayang di media apa?",
+        "Mengapa daun lontar dipakai untuk wayang?",
+        "Proses pembuatan wayang pertama kali bagaimana?",
+        "Apa itu daun lontar dalam sejarah wayang?",
+        "Bagaimana gambaran awal wayang dibuat?",
+        "Mengapa daun lontar dipakai wayang?",
+        "Wayang awal digambar di mana?",
+        "Media awal wayang apa?",
+        "Wayang pertama ditulis di mana?"
+      ],
+      "respon": [
+        "Pada sekitar abad ke-10, Raja Jayabaya membuat gambaran wayang melalui roh leluhur yang kemudian dituangkan pada media daun lontar. Bentuk gambar ditiru dari relief cerita Ramayana pada candi panataran Blitar."
+      ]
+    },
+    {
+      "tag": "wayang_relief_ramayana",
+      "input": [
+        "Apa hubungan wayang dengan cerita Ramayana?",
+        "Wayang ditiru dari relief apa?",
+        "Candi Panataran ada di mana?",
+        "Relief Ramayana ada di candi mana?",
+        "Bentuk wayang ditiru dari relief di mana?",
+        "Mengapa cerita Ramayana menginspirasi wayang?",
+        "Candi Panataran Blitar itu ada relief apa?",
+        "Gambar wayang pertama ditiru dari mana?",
+        "Wayang itu terinspirasi dari relief mana?",
+        "Relief Ramayana ada di candi apa?",
+        "Bentuk wayang ditiru dari mana?",
+        "Cerita wayang terinspirasi dari apa?"
+
+      ],
+      "respon": [
+        "Bentuk gambar wayang ditiru dari relief cerita Ramayana pada Candi Panataran Blitar. Cerita Ramayana ini sangat menarik perhatian Raja Jayabaya karena beliau adalah penyembah Dewa Wisnu yang setia."
+      ]
+    },
+    {
+      "tag": "keris_pengertian",
+      "input": [
+        "Apa itu keris?",
+        "Keris itu senjata apa?",
+        "Jelaskan tentang keris",
+        "Keris berasal dari mana?",
+        "Keris itu benda apa?",
+        "Ceritakan tentang keris Jawa",
+        "Keris itu warisan budaya apa?",
+        "Apa yang dimaksud dengan keris?",
+        "Keris itu apa?",
+        "Ceritakan tentang keris",
+        "Keris itu benda budaya apa?",
+        "Bagaimana sejarah keris Jawa?",
+        "Mengapa keris penting dalam budaya Jawa?"
+      ],
+      "respon": [
+        "Keris adalah senjata tradisional Jawa yang juga menjadi pusaka budaya. Di kalangan masyarakat Jawa Tengah, keris tidak hanya berfungsi sebagai senjata, tetapi juga sebagai simbol status, identitas, dan warisan leluhur yang sakral. Keris sering diwariskan dari generasi ke generasi dan dianggap memiliki nilai spiritual tinggi."
+      ]
+    },
+    {
+      "tag": "keris_simbol_kejantanan",
+      "input": [
+        "Keris melambangkan apa?",
+        "Apa simbolisme keris di kalangan Jawa?",
+        "Mengapa keris disebut simbol kejantanan?",
+        "Keris bermakna apa bagi masyarakat Jawa?",
+        "Apa arti keris dalam budaya Jawa?",
+        "Keris sebagai simbol apa?",
+        "Di kalangan siapa keris dianggap simbol kejantanan?",
+        "Makna keris bagi pria Jawa apa?",
+        "Apa makna keris bagi pria Jawa?",
+        "Kenapa keris disebut simbol kejantanan?",
+        "Arti keris dalam budaya Jawa apa?",
+        "Keris itu simbol apa sih?",
+        "Bagaimana keris menunjukkan keberanian dan kejantanan?",
+        "Apakah keris hanya simbol untuk pria?"
+      ],
+      "respon": [
+        "Di kalangan masyarakat Jawa, keris dilambangkan sebagai simbol kejantanan dan keberanian. Keris sering dikaitkan dengan sifat pria ideal, keberanian, dan kehormatan. Selain itu, keris juga dianggap sebagai lambang spiritual dan identitas keluarga, sehingga maknanya tidak hanya simbolik tetapi juga penuh nilai tradisi. Keris bisa untuk mewakilkan sebagai pengganti pengantin pria. Keris adalah kebudayaan yang menjadi lambang pusaka."
+      ]
+    },
+    {
+      "tag": "keris_pengganti_pengantin",
+      "input": [
+        "Keris bisa menggantikan pengantin pria?",
+        "Kapan keris digunakan sebagai pengganti pengantin?",
+        "Tradisi keris dalam pernikahan Jawa bagaimana?",
+        "Apabila pengantin pria tidak bisa hadir apa yang terjadi?",
+        "Keris mewakili siapa dalam pernikahan Jawa?",
+        "Apa peran keris dalam adat pernikahan Jawa?",
+        "Jika pengantin pria berhalangan hadir digantikan apa?",
+        "Ceritakan tradisi keris dalam pernikahan Jawa",
+        "Keris bisa gantiin pengantin pria?",
+        "Bagaimana simbolisme keris dalam pernikahan Jawa?",
+        "Apakah semua adat Jawa menggunakan keris sebagai pengganti pengantin?"
+      ],
+      "respon": [
+        "Dalam tradisi pernikahan Jawa, terkadang apabila pengantin pria berhalangan hadir pada acara temu pengantin, keris dapat mewakilinya. Sebilah keris ditempatkan sebagai simbol kehadiran pengantin pria, menunjukkan kehormatan dan statusnya, serta menjaga kelangsungan ritual adat dengan tetap menghormati tradisi keluarga."
+      ]
+    },
+    {
+      "tag": "keris_lambang_pusaka",
+      "input": [
+        "Keris sebagai lambang pusaka itu apa?",
+        "Apa itu pusaka dalam budaya Jawa?",
+        "Mengapa keris disebut lambang pusaka?",
+        "Pusaka Jawa itu apa?",
+        "Keris itu pusaka keluarga Jawa?",
+        "Apa hubungan keris dengan pusaka?",
+        "Keris sebagai warisan budaya apa artinya?",
+        "Apa makna keris sebagai pusaka?",
+        "Keris itu pusaka apa?",
+        "Makna keris sebagai pusaka apa?",
+        "Bagaimana keris dijadikan warisan keluarga?",
+        "Mengapa keris dianggap sakral?"
+      ],
+      "respon": [
+         "Keris merupakan bagian penting dari kebudayaan Jawa Tengah yang menjadi lambang pusaka, yaitu benda warisan leluhur yang dianggap sakral dan berharga. Sebagai pusaka, keris bukan hanya memiliki nilai historis dan estetis, tetapi juga dianggap memiliki kekuatan spiritual, identitas keluarga, dan peran dalam upacara adat."
+      ]
+    },
+    {
+      "tag": "ukiran_jepara_pengertian",
+      "input": [
+        "Apa itu ukiran Jepara?",
+        "Ukiran Jepara itu kerajinan apa?",
+        "Jelaskan tentang ukiran Jepara",
+        "Jepara terkenal dengan apa?",
+        "Apa ciri khas ukiran Jepara?",
+        "Ukiran Jepara berasal dari mana?",
+        "Ceritakan tentang ukiran Jepara",
+        "Kerajinan khas Jepara itu apa?",
+        "Ukiran Jepara itu apa?"
+      ],
+      "respon": [
+        "Ukiran Jepara adalah kerajinan khas Jawa Tengah yang terkenal. Banyak yang mengatakan bahwa kebudayaan Jawa Tengah ini mengambil bentuk dedaunan yang disebut daun wuni."
+      ]
+    },
+    {
+      "tag": "daun_wuni",
+      "input": [
+        "Apa itu daun wuni?",
+        "Daun wuni itu tanaman apa?",
+        "Daun wuni tumbuh di mana?",
+        "Mengapa daun wuni jadi motif ukiran Jepara?",
+        "Wuni itu jenis tanaman apa?",
+        "Daun wuni itu rumput atau pohon?",
+        "Ceritakan tentang daun wuni",
+        "Apa ciri tanaman wuni di Jepara?",
+        "Daun wuni itu apa?",
+        "Wuni itu tanaman apa?",
+        "Kenapa daun wuni jadi motif ukiran?",
+        "Bagaimana bentuk daun wuni dalam ukiran?",
+        "Apakah daun wuni hanya ada di Jepara?"
+      ],
+      "respon": [
+        "Daun wuni adalah daun yang menjadi inspirasi motif ukiran Jepara. Daun wuni merupakan jenis rerumputan liar yang banyak tumbuh di Jepara, dan bentuknya sering dijadikan motif hiasan pada ukiran kayu, mebel, dan dekorasi rumah, menampilkan keindahan alam dan kreativitas pengrajin Jepara."
+      ]
+    },
+    {
+      "tag": "motif_ukiran_jepara",
+      "input": [
+        "Motif ukiran Jepara itu apa?",
+        "Ukiran Jepara bermotif apa?",
+        "Apa yang digambarkan dalam ukiran Jepara?",
+        "Bentuk ukiran Jepara seperti apa?",
+        "Mengapa ukiran Jepara bermotif daun?",
+        "Motif dedaunan dalam ukiran Jepara itu apa?",
+        "Apa inspirasi motif ukiran Jepara?",
+        "Ukiran Jepara menggambarkan apa?",
+        "Inspirasi motif ukiran Jepara apa?",
+        "Apakah motif ukiran Jepara selalu daun?",
+        "Adakah motif lain selain daun pada ukiran Jepara?"
+      ],
+      "respon": [
+        "Ukiran Jepara umumnya mengambil bentuk dedaunan, terutama daun wuni, yang merupakan jenis rerumputan liar di Jepara. Motif ini melambangkan keindahan alam, kesuburan, dan kreativitas pengrajin, meski ada juga variasi motif bunga dan hewan untuk memperkaya desain."
+      ]
+    },
+    {
+      "tag": "kirab_apem_sewu_pengertian",
+      "input": [
+        "Apa itu Kirab Apem Sewu?",
+        "Kirab Apem Sewu itu ritual apa?",
+        "Jelaskan tentang Kirab Apem Sewu",
+        "Kirab Apem Sewu berasal dari mana?",
+        "Apa itu ritual Kirab Apem?",
+        "Ceritakan tentang Kirab Apem Sewu",
+        "Kirab Apem Sewu itu acara apa?",
+        "Kirab Apem Sewu diadakan di mana?",
+        "Kirab Apem Sewu itu apa?",
+        "Bagaimana tradisi Kirab Apem Sewu?",
+        "Siapa yang mengikuti Kirab Apem Sewu?"
+      ],
+      "respon": [
+        "Kirab Apem Sewu adalah kebudayaan Jawa Tengah berupa ritual syukuran yang diadakan oleh masyarakat Kampung Sewu. Acara ini biasanya digelar pada bulan Haji dan bertujuan untuk mengenalkan Kampung Sewu sebagai sentra produksi apem, menghargai pembuatnya, dan sebagai ungkapan syukur kepada Tuhan karena desa mereka aman dari bencana."
+    ]
+    },
+    {
+      "tag": "kirab_apem_waktu",
+      "input": [
+        "Kapan Kirab Apem Sewu diadakan?",
+        "Kirab Apem Sewu digelar di bulan apa?",
+        "Bulan apa Kirab Apem Sewu dilaksanakan?",
+        "Waktu penyelenggaraan Kirab Apem Sewu kapan?",
+        "Kirab Apem Sewu biasanya kapan?",
+        "Di acara apa Kirab Apem Sewu diadakan?",
+        "Kirab Apem Sewu berlangsung kapan?",
+        "Kirab Apem Sewu diadakan dalam rangka apa?",
+        "Kapan Kirab Apem Sewu dilaksanakan?",
+        "Kirab Apem Sewu digelar bulan apa?",
+        "Waktu penyelenggaraan Kirab Apem kapan?",
+        "Kirab Apem Sewu itu kapan?",
+        "Bulan apa Kirab Apem diadakan?",
+        "Apakah Kirab Apem Sewu selalu di bulan Haji?",
+        "Berapa lama Kirab Apem Sewu berlangsung?"
+      ],
+      "respon": [
+        "Kirab Apem Sewu biasanya digelar pada acara bulan Haji dan berlangsung sebagai rangkaian acara syukuran, melibatkan seluruh masyarakat Kampung Sewu."
+      ]
+    },
+    {
+      "tag": "kirab_apem_tujuan",
+      "input": [
+        "Apa tujuan Kirab Apem Sewu?",
+        "Mengapa Kirab Apem Sewu diadakan?",
+        "Apa maksud ritual Kirab Apem Sewu?",
+        "Untuk apa Kirab Apem Sewu dilaksanakan?",
+        "Apa yang ingin dicapai dari Kirab Apem Sewu?",
+        "Fungsi Kirab Apem Sewu apa?",
+        "Alasan diadakannya Kirab Apem Sewu apa?",
+        "Apa makna Kirab Apem Sewu bagi masyarakat?",
+        "Tujuan Kirab Apem Sewu apa?",
+        "Kenapa Kirab Apem Sewu diadakan?",
+        "Maksud ritual Kirab Apem Sewu apa?",
+        "Apa yang ingin dicapai dari Kirab Apem?",
+        "Bagaimana Kirab Apem Sewu memperkenalkan Kampung Sewu?",
+        "Apa makna syukur dalam Kirab Apem Sewu?"
+      ],
+      "respon": [
+        "Kirab Apem Sewu diadakan untuk mengenalkan Kampung Sewu sebagai sentra produksi apem, menghargai para pembuat apem, dan sebagai ungkapan syukur terhadap Tuhan karena desa mereka aman dari bencana. Ritual ini juga mempererat kebersamaan masyarakat dan melestarikan tradisi lokal."
+      ]
+    },
+    {
+      "tag": "kampung_sewu_apem",
+      "input": [
+        "Apa itu Kampung Sewu?",
+        "Kampung Sewu terkenal dengan apa?",
+        "Mengapa Kampung Sewu disebut sentra apem?",
+        "Apem itu makanan apa?",
+        "Kampung Sewu ada di mana?",
+        "Apa yang diproduksi Kampung Sewu?",
+        "Apem khas Kampung Sewu itu seperti apa?",
+        "Kampung Sewu itu daerah penghasil apa?",
+        "Kampung Sewu itu apa?",
+        "Kampung Sewu terkenal karena apa?",
+        "Kenapa Kampung Sewu disebut sentra apem?",
+        "Bagaimana sejarah kampung sewu sebagai penghasil apem?"
+      ],
+      "respon": [
+        "Kampung Sewu adalah kampung yang dikenal sebagai sentra produksi apem, kue tradisional khas Jawa. Selain untuk konsumsi lokal, Kampung Sewu juga memperkenalkan apemnya melalui ritual Kirab Apem Sewu sebagai bagian dari kebudayaan dan penghargaan terhadap para pembuatnya."
+      ]
+    },
+    {
+      "tag": "kirab_apem_syukuran",
+      "input": [
+        "Kirab Apem Sewu sebagai ungkapan syukur untuk apa?",
+        "Apa yang disyukuri dalam Kirab Apem Sewu?",
+        "Mengapa masyarakat bersyukur dalam Kirab Apem?",
+        "Syukuran dalam Kirab Apem Sewu itu untuk apa?",
+        "Apa makna syukuran Kirab Apem Sewu?",
+        "Keselamatan apa yang disyukuri dalam Kirab Apem?",
+        "Ritual syukur Kirab Apem Sewu maknanya apa?",
+        "Untuk apa ungkapan syukur dalam Kirab Apem Sewu?",
+        "Kirab Apem Sewu sebagai syukuran atas apa?",
+        "Apa yang disyukuri dalam Kirab Apem?",
+        "Bagaimana masyarakat mengekspresikan syukur dalam Kirab Apem?",
+        "Apakah syukuran Kirab Apem Sewu bersifat religius?",
+        "Makna syukuran Kirab Apem apa?",
+        "Untuk apa ungkapan syukur Kirab Apem?",
+        "Kenapa masyarakat bersyukur dalam Kirab Apem?"
+      ],
+      "respon": [
+        "Kirab Apem Sewu merupakan ungkapan syukur masyarakat Kampung Sewu kepada Tuhan karena desa mereka aman dan jauh dari bencana. Selain itu, ritual ini juga mengekspresikan rasa terima kasih kepada para pembuat apem dan mempererat ikatan sosial di masyarakat."
+      ]
+    },
+    {
+      "tag": "tedhak_siten_pengertian",
+      "input": [
+        "Apa itu Tedhak Siten?",
+        "Tedhak Siten itu upacara apa?",
+        "Jelaskan tentang Tedhak Siten",
+        "Tedhak Siten itu tradisi apa?",
+        "Ceritakan tentang Tedhak Siten",
+        "Tedhak Siten upacara untuk siapa?",
+        "Apa itu upacara Tedhak Siten?",
+        "Tedhak Siten itu adat dari mana?",
+        "Tedhak Siten itu apa?",
+        "Upacara Tedhak Siten itu untuk siapa?",
+        "Bagaimana prosesi Tedhak Siten?",
+        "Apa saja yang dilakukan dalam Tedhak Siten?"
+      ],
+      "respon": [
+        "Tedhak Siten adalah bagian dari kebudayaan Jawa Tengah yang masih berlangsung hingga sekarang. Upacara ini diadakan untuk bayi yang baru pertama kali belajar berjalan. Prosesi ini biasanya melibatkan bayi berjalan di tanah atau lantai rumah, disertai doa agar kelak si bayi dapat tumbuh mandiri dan sehat."
+      ]
+    },
+    {
+      "tag": "tedhak_siten_usia",
+      "input": [
+        "Tedhak Siten dilakukan saat bayi berusia berapa?",
+        "Kapan Tedhak Siten diadakan?",
+        "Usia berapa bayi menjalani Tedhak Siten?",
+        "Tedhak Siten untuk bayi umur berapa bulan?",
+        "Berapa bulan bayi saat Tedhak Siten?",
+        "Tedhak Siten dilaksanakan di usia bayi berapa?",
+        "Kapan waktu pelaksanaan Tedhak Siten?",
+        "Bayi usia berapa yang melakukan Tedhak Siten?",
+        "Tedhak Siten dilakukan saat bayi umur berapa?",
+        "Kapan Tedhak Siten dilaksanakan?",
+        "Apakah Tedhak Siten dilakukan hanya sekali dalam hidup bayi?",
+        "Kenapa usia tujuh bulan dipilih untuk Tedhak Siten?",
+        "Bayi umur berapa menjalani Tedhak Siten?",
+        "Tedhak Siten itu untuk bayi usia berapa?"
+      ],
+      "respon": [
+        "Upacara Tedhak Siten biasanya diadakan ketika bayi berusia tujuh bulan dan mulai belajar duduk serta berjalan di tanah. Usia ini dipilih karena bayi mulai mengenal lingkungannya dan tahap ini penting untuk pertumbuhan motorik dan kemandirian."
+      ]
+    },
+    {
+      "tag": "tedhak_siten_tujuan",
+      "input": [
+        "Apa tujuan Tedhak Siten?",
+        "Mengapa Tedhak Siten diadakan?",
+        "Apa harapan dari upacara Tedhak Siten?",
+        "Apa makna Tedhak Siten bagi bayi Jawa?",
+        "Untuk apa Tedhak Siten dilaksanakan?",
+        "Apa harapan orang tua dari Tedhak Siten?",
+        "Bagaimana Tedhak Siten mendidik bayi secara simbolik?",
+        "Apa filosofi upacara Tedhak Siten?",
+        "Doa apa yang diharapkan dalam Tedhak Siten?",
+        "Apa tujuan diselenggarakannya Tedhak Siten?",
+        "Tujuan Tedhak Siten apa?",
+        "Kenapa Tedhak Siten diadakan?",
+        "Makna Tedhak Siten apa?"
+      ],
+      "respon": [
+        "Secara keseluruhan, upacara Tedhak Siten diselenggarakan agar bayi dapat tumbuh mandiri, sehat, dan kuat di masa depan. Selain itu, ritual ini mengajarkan nilai-nilai tradisi dan simbolisasi doa orang tua agar anaknya selalu mendapatkan perlindungan dan keberkahan dalam hidup."
+    ]
+    },
+    {
+      "tag": "tedhak_siten_masih_ada",
+      "input": [
+        "Apakah Tedhak Siten masih ada sekarang?",
+        "Tedhak Siten masih dilakukan zaman modern?",
+        "Apakah tradisi Tedhak Siten masih lestari?",
+        "Tedhak Siten masih dipraktikkan?",
+        "Apakah Tedhak Siten sudah hilang?",
+        "Sampai sekarang Tedhak Siten masih ada?",
+        "Tradisi Tedhak Siten masih bertahan hingga kini?",
+        "Apakah masyarakat Jawa masih melakukan Tedhak Siten?",
+        "Tedhak Siten masih ada sekarang?",
+        "Apakah Tedhak Siten masih dilakukan?",
+        "Tradisi Tedhak Siten masih lestari?",
+        "Tedhak Siten masih dipraktikkan ga?",
+        "Masyarakat Jawa masih lakukan Tedhak Siten?"
+      ],
+      "respon": [
+        "Ya, Tedhak Siten masih menjadi bagian dari kebudayaan Jawa Tengah yang masih berjalan hingga sekarang."
+      ]
+    },
+    {
+      "tag": "pusat_budaya_jawa",
+      "input": [
+        "Di mana pusat kebudayaan Jawa?",
+        "Kota apa yang jadi pusat budaya Jawa?",
+        "Mengapa Jawa Tengah disebut pusat budaya?",
+        "Yogyakarta dan Surakarta sebagai apa?",
+        "Solo itu pusat kebudayaan Jawa?",
+        "Keraton Jawa ada di kota mana?",
+        "Di mana pusat istana kerajaan Jawa?",
+        "Kota-kota pusat kebudayaan Jawa apa saja?",
+        "Pusat budaya Jawa itu di mana?",
+        "Kota pusat budaya Jawa apa?",
+        "Yogyakarta dan Solo itu pusat apa?",
+        "Di mana pusat kebudayaan Jawa Tengah?"
+      ],
+      "respon": [
+        "Jawa Tengah dikenal sebagai pusat budaya di mana terdapat kota Yogyakarta dan Surakarta (Solo) yang merupakan pusat istana kerajaan Jawa yang masih ada hingga kini."
+      ]
+    },
+    {
+      "tag": "ucapan_terima_kasih",
+      "input": [
+        "Terima kasih",
+        "Makasih ya",
+        "Terima kasih infonya",
+        "Makasih JATA",
+        "Makasih ya JATA",
+        "Oke terima kasih",
+        "Makasih infonya ya",
+        "Makasih",
+        "Makasih informasinya",
+        "Thanks",
+        "Terima kasih banyak,",
+        "Thank you"
+      ],
+      "respon": [
+        "Sama-sama! Semoga informasi tentang kebudayaan Jawa Tengah ini bermanfaat ya"
+      ]
+    },
+    {
+      "tag": "ucapan_perpisahan",
+      "input": [
+        "Sampai jumpa",
+        "Bye",
+        "Selamat tinggal",
+        "Cukup dulu",
+        "Udah dulu",
+        "Dadah",
+        "Ok bye",
+        "Sampai ketemu lagi",
+        "Jumpa lagi",
+        "Sampai nanti"
+      ],
+      "respon": [
+        "Sampai jumpa! Semoga ilmu dan informasi tentang kebudayaan Jawa Tengah ini bermanfaat, jangan lupa terus mengenal dan melestarikan budaya Indonesia. Tetap semangat dan sampai bertemu lagi!"
+      ]
+    },
+    {
+      "tag": "konfirmasi",
+      "input": [
+        "oke",
+        "iya",
+        "Baik",
+        "Siap",
+        "Okey",
+        "okee",
+        "yap",
+        "Sip",
+        "Noted",
+        "paham"
+      ],
+      "respon": [
+        "Baik! Ada lagi yang ingin kamu tanyakan seputar tentang kebudayaan Jawa Tengah?"
+      ]
+    }
+  ]
+}
